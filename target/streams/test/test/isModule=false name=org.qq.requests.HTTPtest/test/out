@@ -1,0 +1,5 @@
+[0m[[0minfo[0m] [0m[32mHTTPtest:[0m[0m
+[0m[[0minfo[0m] [0m[32mA HTTP requester[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be able to perform regular HTTP get request[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be able to perform HTTPS get request[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be able to insert cookies like inserting Optional Map[0m[0m

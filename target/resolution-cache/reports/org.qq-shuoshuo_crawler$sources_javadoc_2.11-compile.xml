@@ -1,0 +1,1579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.qq"
+		module="shuoshuo_crawler$sources_javadoc_2.11"
+		revision="0.1"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20160118155001"/>
+	<dependencies>
+		<module organisation="org.seleniumhq.selenium" name="selenium-java">
+			<revision name="2.49.0" status="release" pubdate="20160114050841" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="50">
+				<metadata-artifact status="no" details="" size="5991" time="0" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-java/ivy-2.49.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-java/2.49.0/selenium-java-2.49.0.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.49.0" rev-constraint-default="2.49.0" rev-constraint-dynamic="2.49.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="selenium-java" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
+					<artifact name="selenium-java" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="357" time="2648" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-java/docs/selenium-java-2.49.0-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-java/2.49.0/selenium-java-2.49.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="selenium-java" type="jar" ext="jar" status="no" details="" size="2133" time="0" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-java/jars/selenium-java-2.49.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-java/2.49.0/selenium-java-2.49.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-leg-rc">
+			<revision name="2.49.0" status="release" pubdate="20160114050653" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="89">
+				<metadata-artifact status="no" details="" size="4939" time="0" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-leg-rc/ivy-2.49.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-leg-rc/2.49.0/selenium-leg-rc-2.49.0.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.49.0" rev-constraint-default="2.49.0" rev-constraint-dynamic="2.49.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="selenium-leg-rc" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="163948" time="3714" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-leg-rc/srcs/selenium-leg-rc-2.49.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-leg-rc/2.49.0/selenium-leg-rc-2.49.0-sources.jar"/>
+					</artifact>
+					<artifact name="selenium-leg-rc" type="jar" ext="jar" status="no" details="" size="399595" time="0" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-leg-rc/jars/selenium-leg-rc-2.49.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-leg-rc/2.49.0/selenium-leg-rc-2.49.0.jar"/>
+					</artifact>
+					<artifact name="selenium-leg-rc" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="737204" time="5978" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-leg-rc/docs/selenium-leg-rc-2.49.0-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-leg-rc/2.49.0/selenium-leg-rc-2.49.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-safari-driver">
+			<revision name="2.49.0" status="release" pubdate="20160114050651" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="87">
+				<metadata-artifact status="no" details="" size="4836" time="0" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-safari-driver/ivy-2.49.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-safari-driver/2.49.0/selenium-safari-driver-2.49.0.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.49.0" rev-constraint-default="2.49.0" rev-constraint-dynamic="2.49.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="selenium-safari-driver" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="40194" time="2355" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-safari-driver/docs/selenium-safari-driver-2.49.0-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-safari-driver/2.49.0/selenium-safari-driver-2.49.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="selenium-safari-driver" type="jar" ext="jar" status="no" details="" size="85534" time="0" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-safari-driver/jars/selenium-safari-driver-2.49.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-safari-driver/2.49.0/selenium-safari-driver-2.49.0.jar"/>
+					</artifact>
+					<artifact name="selenium-safari-driver" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="17593" time="1223" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-safari-driver/srcs/selenium-safari-driver-2.49.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-safari-driver/2.49.0/selenium-safari-driver-2.49.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.webbitserver" name="webbit">
+			<revision name="0.4.14" status="release" pubdate="20120713203556" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webbitserver.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="88">
+				<license name="BSD License" url="http://www.opensource.org/licenses/bsd-license"/>
+				<metadata-artifact status="no" details="" size="3499" time="0" location="/Users/Scott/.ivy2/cache/org.webbitserver/webbit/ivy-0.4.14.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/webbitserver/webbit/0.4.14/webbit-0.4.14.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="0.4.14" rev-constraint-default="0.4.14" rev-constraint-dynamic="0.4.14" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="webbit" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="80361" time="1461" location="/Users/Scott/.ivy2/cache/org.webbitserver/webbit/srcs/webbit-0.4.14-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/webbitserver/webbit/0.4.14/webbit-0.4.14-sources.jar"/>
+					</artifact>
+					<artifact name="webbit" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="560583" time="7448" location="/Users/Scott/.ivy2/cache/org.webbitserver/webbit/docs/webbit-0.4.14-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/webbitserver/webbit/0.4.14/webbit-0.4.14-javadoc.jar"/>
+					</artifact>
+					<artifact name="webbit" type="jar" ext="jar" status="no" details="" size="165120" time="0" location="/Users/Scott/.ivy2/cache/org.webbitserver/webbit/jars/webbit-0.4.14.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/webbitserver/webbit/0.4.14/webbit-0.4.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-ie-driver">
+			<revision name="2.49.0" status="release" pubdate="20160114050650" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="86">
+				<metadata-artifact status="no" details="" size="4971" time="0" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-ie-driver/ivy-2.49.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-ie-driver/2.49.0/selenium-ie-driver-2.49.0.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.49.0" rev-constraint-default="2.49.0" rev-constraint-dynamic="2.49.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="selenium-ie-driver" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="7608" time="1254" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-ie-driver/srcs/selenium-ie-driver-2.49.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-ie-driver/2.49.0/selenium-ie-driver-2.49.0-sources.jar"/>
+					</artifact>
+					<artifact name="selenium-ie-driver" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="55812" time="2423" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-ie-driver/docs/selenium-ie-driver-2.49.0-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-ie-driver/2.49.0/selenium-ie-driver-2.49.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="selenium-ie-driver" type="jar" ext="jar" status="no" details="" size="11524" time="0" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-ie-driver/jars/selenium-ie-driver-2.49.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-ie-driver/2.49.0/selenium-ie-driver-2.49.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-firefox-driver">
+			<revision name="2.49.0" status="release" pubdate="20160114050648" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="85">
+				<metadata-artifact status="no" details="" size="4980" time="0" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-firefox-driver/ivy-2.49.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-firefox-driver/2.49.0/selenium-firefox-driver-2.49.0.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.49.0" rev-constraint-default="2.49.0" rev-constraint-dynamic="2.49.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="selenium-firefox-driver" type="jar" ext="jar" status="no" details="" size="815065" time="0" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-firefox-driver/jars/selenium-firefox-driver-2.49.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-firefox-driver/2.49.0/selenium-firefox-driver-2.49.0.jar"/>
+					</artifact>
+					<artifact name="selenium-firefox-driver" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="130626" time="3361" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-firefox-driver/docs/selenium-firefox-driver-2.49.0-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-firefox-driver/2.49.0/selenium-firefox-driver-2.49.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="selenium-firefox-driver" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="33557" time="1747" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-firefox-driver/srcs/selenium-firefox-driver-2.49.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-firefox-driver/2.49.0/selenium-firefox-driver-2.49.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-htmlunit-driver">
+			<revision name="2.49.0" status="release" pubdate="20160114050646" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="65">
+				<metadata-artifact status="no" details="" size="5287" time="0" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-htmlunit-driver/ivy-2.49.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-htmlunit-driver/2.49.0/selenium-htmlunit-driver-2.49.0.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.49.0" rev-constraint-default="2.49.0" rev-constraint-dynamic="2.49.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="selenium-htmlunit-driver" type="jar" ext="jar" status="no" details="" size="61866" time="0" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-htmlunit-driver/jars/selenium-htmlunit-driver-2.49.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-htmlunit-driver/2.49.0/selenium-htmlunit-driver-2.49.0.jar"/>
+					</artifact>
+					<artifact name="selenium-htmlunit-driver" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="64870" time="2772" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-htmlunit-driver/docs/selenium-htmlunit-driver-2.49.0-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-htmlunit-driver/2.49.0/selenium-htmlunit-driver-2.49.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="selenium-htmlunit-driver" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="29945" time="1422" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-htmlunit-driver/srcs/selenium-htmlunit-driver-2.49.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-htmlunit-driver/2.49.0/selenium-htmlunit-driver-2.49.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.2" status="release" pubdate="20151114221952" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="84">
+				<metadata-artifact status="no" details="" size="11011" time="0" location="/Users/Scott/.ivy2/cache/commons-collections/commons-collections/ivy-3.2.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-collections" type="jar" ext="jar" status="no" details="" size="588337" time="0" location="/Users/Scott/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar"/>
+					</artifact>
+					<artifact name="commons-collections" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="2098525" time="12905" location="/Users/Scott/.ivy2/cache/commons-collections/commons-collections/docs/commons-collections-3.2.2-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="commons-collections" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="646075" time="10533" location="/Users/Scott/.ivy2/cache/commons-collections/commons-collections/srcs/commons-collections-3.2.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.htmlunit" name="htmlunit">
+			<revision name="2.18" status="release" pubdate="20150727051055" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://htmlunit.sourceforge.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="67">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7866" time="0" location="/Users/Scott/.ivy2/cache/net.sourceforge.htmlunit/htmlunit/ivy-2.18.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/net/sourceforge/htmlunit/htmlunit/2.18/htmlunit-2.18.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.18" rev-constraint-default="2.18" rev-constraint-dynamic="2.18" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="htmlunit" type="jar" ext="jar" status="no" details="" size="1856271" time="0" location="/Users/Scott/.ivy2/cache/net.sourceforge.htmlunit/htmlunit/jars/htmlunit-2.18.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/sourceforge/htmlunit/htmlunit/2.18/htmlunit-2.18.jar"/>
+					</artifact>
+					<artifact name="htmlunit" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1783108" time="6457" location="/Users/Scott/.ivy2/cache/net.sourceforge.htmlunit/htmlunit/srcs/htmlunit-2.18-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/sourceforge/htmlunit/htmlunit/2.18/htmlunit-2.18-sources.jar"/>
+					</artifact>
+					<artifact name="htmlunit" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="8447101" time="15089" location="/Users/Scott/.ivy2/cache/net.sourceforge.htmlunit/htmlunit/docs/htmlunit-2.18-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/sourceforge/htmlunit/htmlunit/2.18/htmlunit-2.18-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty.websocket" name="websocket-client">
+			<revision name="9.2.12.v20150709" status="release" pubdate="20150713200824" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="79">
+				<metadata-artifact status="no" details="" size="13289" time="0" location="/Users/Scott/.ivy2/cache/org.eclipse.jetty.websocket/websocket-client/ivy-9.2.12.v20150709.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/eclipse/jetty/websocket/websocket-client/9.2.12.v20150709/websocket-client-9.2.12.v20150709.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="9.2.12.v20150709" rev-constraint-default="9.2.12.v20150709" rev-constraint-dynamic="9.2.12.v20150709" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="websocket-client" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="147074" time="2838" location="/Users/Scott/.ivy2/cache/org.eclipse.jetty.websocket/websocket-client/docs/websocket-client-9.2.12.v20150709-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/jetty/websocket/websocket-client/9.2.12.v20150709/websocket-client-9.2.12.v20150709-javadoc.jar"/>
+					</artifact>
+					<artifact name="websocket-client" type="jar" ext="jar" status="no" details="" size="36264" time="0" location="/Users/Scott/.ivy2/cache/org.eclipse.jetty.websocket/websocket-client/jars/websocket-client-9.2.12.v20150709.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/jetty/websocket/websocket-client/9.2.12.v20150709/websocket-client-9.2.12.v20150709.jar"/>
+					</artifact>
+					<artifact name="websocket-client" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="24953" time="2322" location="/Users/Scott/.ivy2/cache/org.eclipse.jetty.websocket/websocket-client/srcs/websocket-client-9.2.12.v20150709-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/jetty/websocket/websocket-client/9.2.12.v20150709/websocket-client-9.2.12.v20150709-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty.websocket" name="websocket-common">
+			<revision name="9.2.12.v20150709" status="release" pubdate="20150713222056" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="82">
+				<metadata-artifact status="no" details="" size="13012" time="0" location="/Users/Scott/.ivy2/cache/org.eclipse.jetty.websocket/websocket-common/ivy-9.2.12.v20150709.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/eclipse/jetty/websocket/websocket-common/9.2.12.v20150709/websocket-common-9.2.12.v20150709.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="9.2.12.v20150709" rev-constraint-default="9.2.12.v20150709" rev-constraint-dynamic="9.2.12.v20150709" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="websocket-common" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="732311" time="11193" location="/Users/Scott/.ivy2/cache/org.eclipse.jetty.websocket/websocket-common/docs/websocket-common-9.2.12.v20150709-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/jetty/websocket/websocket-common/9.2.12.v20150709/websocket-common-9.2.12.v20150709-javadoc.jar"/>
+					</artifact>
+					<artifact name="websocket-common" type="jar" ext="jar" status="no" details="" size="179845" time="0" location="/Users/Scott/.ivy2/cache/org.eclipse.jetty.websocket/websocket-common/jars/websocket-common-9.2.12.v20150709.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/jetty/websocket/websocket-common/9.2.12.v20150709/websocket-common-9.2.12.v20150709.jar"/>
+					</artifact>
+					<artifact name="websocket-common" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="119150" time="2186" location="/Users/Scott/.ivy2/cache/org.eclipse.jetty.websocket/websocket-common/srcs/websocket-common-9.2.12.v20150709-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/jetty/websocket/websocket-common/9.2.12.v20150709/websocket-common-9.2.12.v20150709-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty.websocket" name="websocket-api">
+			<revision name="9.2.12.v20150709" status="release" pubdate="20150713222057" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="83">
+				<metadata-artifact status="no" details="" size="12472" time="0" location="/Users/Scott/.ivy2/cache/org.eclipse.jetty.websocket/websocket-api/ivy-9.2.12.v20150709.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/eclipse/jetty/websocket/websocket-api/9.2.12.v20150709/websocket-api-9.2.12.v20150709.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="9.2.12.v20150709" rev-constraint-default="9.2.12.v20150709" rev-constraint-dynamic="9.2.12.v20150709" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="websocket-api" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="46365" time="1214" location="/Users/Scott/.ivy2/cache/org.eclipse.jetty.websocket/websocket-api/srcs/websocket-api-9.2.12.v20150709-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/jetty/websocket/websocket-api/9.2.12.v20150709/websocket-api-9.2.12.v20150709-sources.jar"/>
+					</artifact>
+					<artifact name="websocket-api" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="270905" time="10774" location="/Users/Scott/.ivy2/cache/org.eclipse.jetty.websocket/websocket-api/docs/websocket-api-9.2.12.v20150709-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/jetty/websocket/websocket-api/9.2.12.v20150709/websocket-api-9.2.12.v20150709-javadoc.jar"/>
+					</artifact>
+					<artifact name="websocket-api" type="jar" ext="jar" status="no" details="" size="43776" time="0" location="/Users/Scott/.ivy2/cache/org.eclipse.jetty.websocket/websocket-api/jars/websocket-api-9.2.12.v20150709.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/jetty/websocket/websocket-api/9.2.12.v20150709/websocket-api-9.2.12.v20150709.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-io">
+			<revision name="9.2.12.v20150709" status="release" pubdate="20150711062003" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="81">
+				<metadata-artifact status="no" details="" size="11453" time="0" location="/Users/Scott/.ivy2/cache/org.eclipse.jetty/jetty-io/ivy-9.2.12.v20150709.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/eclipse/jetty/jetty-io/9.2.12.v20150709/jetty-io-9.2.12.v20150709.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="9.2.12.v20150709" rev-constraint-default="9.2.12.v20150709" rev-constraint-dynamic="9.2.12.v20150709" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jetty-io" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="302443" time="5535" location="/Users/Scott/.ivy2/cache/org.eclipse.jetty/jetty-io/docs/jetty-io-9.2.12.v20150709-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/jetty/jetty-io/9.2.12.v20150709/jetty-io-9.2.12.v20150709-javadoc.jar"/>
+					</artifact>
+					<artifact name="jetty-io" type="jar" ext="jar" status="no" details="" size="108240" time="0" location="/Users/Scott/.ivy2/cache/org.eclipse.jetty/jetty-io/jars/jetty-io-9.2.12.v20150709.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/jetty/jetty-io/9.2.12.v20150709/jetty-io-9.2.12.v20150709.jar"/>
+					</artifact>
+					<artifact name="jetty-io" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="59316" time="1971" location="/Users/Scott/.ivy2/cache/org.eclipse.jetty/jetty-io/srcs/jetty-io-9.2.12.v20150709-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/jetty/jetty-io/9.2.12.v20150709/jetty-io-9.2.12.v20150709-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-util">
+			<revision name="9.2.12.v20150709" status="release" pubdate="20150711213850" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="80">
+				<metadata-artifact status="no" details="" size="11584" time="0" location="/Users/Scott/.ivy2/cache/org.eclipse.jetty/jetty-util/ivy-9.2.12.v20150709.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/eclipse/jetty/jetty-util/9.2.12.v20150709/jetty-util-9.2.12.v20150709.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="9.2.12.v20150709" rev-constraint-default="9.2.12.v20150709" rev-constraint-dynamic="9.2.12.v20150709" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jetty-util" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1019105" time="13717" location="/Users/Scott/.ivy2/cache/org.eclipse.jetty/jetty-util/docs/jetty-util-9.2.12.v20150709-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/jetty/jetty-util/9.2.12.v20150709/jetty-util-9.2.12.v20150709-javadoc.jar"/>
+					</artifact>
+					<artifact name="jetty-util" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="251990" time="2956" location="/Users/Scott/.ivy2/cache/org.eclipse.jetty/jetty-util/srcs/jetty-util-9.2.12.v20150709-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/jetty/jetty-util/9.2.12.v20150709/jetty-util-9.2.12.v20150709-sources.jar"/>
+					</artifact>
+					<artifact name="jetty-util" type="jar" ext="jar" status="no" details="" size="357855" time="0" location="/Users/Scott/.ivy2/cache/org.eclipse.jetty/jetty-util/jars/jetty-util-9.2.12.v20150709.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/eclipse/jetty/jetty-util/9.2.12.v20150709/jetty-util-9.2.12.v20150709.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.cssparser" name="cssparser">
+			<revision name="0.9.16" status="release" pubdate="20150603144600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://cssparser.sourceforge.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="77">
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="3616" time="0" location="/Users/Scott/.ivy2/cache/net.sourceforge.cssparser/cssparser/ivy-0.9.16.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/net/sourceforge/cssparser/cssparser/0.9.16/cssparser-0.9.16.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="0.9.16" rev-constraint-default="0.9.16" rev-constraint-dynamic="0.9.16" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="cssparser" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="243889" time="4305" location="/Users/Scott/.ivy2/cache/net.sourceforge.cssparser/cssparser/srcs/cssparser-0.9.16-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/sourceforge/cssparser/cssparser/0.9.16/cssparser-0.9.16-sources.jar"/>
+					</artifact>
+					<artifact name="cssparser" type="jar" ext="jar" status="no" details="" size="380196" time="0" location="/Users/Scott/.ivy2/cache/net.sourceforge.cssparser/cssparser/jars/cssparser-0.9.16.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/sourceforge/cssparser/cssparser/0.9.16/cssparser-0.9.16.jar"/>
+					</artifact>
+					<artifact name="cssparser" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="393556" time="5290" location="/Users/Scott/.ivy2/cache/net.sourceforge.cssparser/cssparser/docs/cssparser-0.9.16-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/sourceforge/cssparser/cssparser/0.9.16/cssparser-0.9.16-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.w3c.css" name="sac">
+			<revision name="1.3" status="release" pubdate="20080323124250" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.w3.org/Style/CSS/SAC/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="78">
+				<license name="The W3C Software License" url="http://www.w3.org/Consortium/Legal/copyright-software-19980720"/>
+				<metadata-artifact status="no" details="" size="2511" time="0" location="/Users/Scott/.ivy2/cache/org.w3c.css/sac/ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/w3c/css/sac/1.3/sac-1.3.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="sac" type="jar" ext="jar" status="no" details="" size="15808" time="0" location="/Users/Scott/.ivy2/cache/org.w3c.css/sac/jars/sac-1.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/w3c/css/sac/1.3/sac-1.3.jar"/>
+					</artifact>
+					<artifact name="sac" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="33134" time="1550" location="/Users/Scott/.ivy2/cache/org.w3c.css/sac/srcs/sac-1.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/w3c/css/sac/1.3/sac-1.3-sources.jar"/>
+					</artifact>
+					<artifact name="sac" type="doc" ext="jar" extra-classifier="javadoc" status="failed" details="" size="0" time="0"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.nekohtml" name="nekohtml">
+			<revision name="1.9.22" status="release" pubdate="20150417204200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://nekohtml.sourceforge.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="76">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2694" time="0" location="/Users/Scott/.ivy2/cache/net.sourceforge.nekohtml/nekohtml/ivy-1.9.22.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/net/sourceforge/nekohtml/nekohtml/1.9.22/nekohtml-1.9.22.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.9.22" rev-constraint-default="1.9.22" rev-constraint-dynamic="1.9.22" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="nekohtml" type="jar" ext="jar" status="no" details="" size="125315" time="0" location="/Users/Scott/.ivy2/cache/net.sourceforge.nekohtml/nekohtml/jars/nekohtml-1.9.22.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/sourceforge/nekohtml/nekohtml/1.9.22/nekohtml-1.9.22.jar"/>
+					</artifact>
+					<artifact name="nekohtml" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="257104" time="4334" location="/Users/Scott/.ivy2/cache/net.sourceforge.nekohtml/nekohtml/docs/nekohtml-1.9.22-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/sourceforge/nekohtml/nekohtml/1.9.22/nekohtml-1.9.22-javadoc.jar"/>
+					</artifact>
+					<artifact name="nekohtml" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="113209" time="3030" location="/Users/Scott/.ivy2/cache/net.sourceforge.nekohtml/nekohtml/srcs/nekohtml-1.9.22-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/sourceforge/nekohtml/nekohtml/1.9.22/nekohtml-1.9.22-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xerces" name="xercesImpl">
+			<revision name="2.11.0" status="release" pubdate="20130220142006" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://xerces.apache.org/xerces2-j/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="74">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4260" time="0" location="/Users/Scott/.ivy2/cache/xerces/xercesImpl/ivy-2.11.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="xercesImpl" type="jar" ext="jar" status="no" details="" size="1367760" time="0" location="/Users/Scott/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar"/>
+					</artifact>
+					<artifact name="xercesImpl" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="2081596" time="5746" location="/Users/Scott/.ivy2/cache/xerces/xercesImpl/srcs/xercesImpl-2.11.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0-sources.jar"/>
+					</artifact>
+					<artifact name="xercesImpl" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="2136909" time="7382" location="/Users/Scott/.ivy2/cache/xerces/xercesImpl/docs/xercesImpl-2.11.0-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xml-apis" name="xml-apis">
+			<revision name="1.4.01" status="release" pubdate="20110819191111" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xml.apache.org/commons/components/external/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="75">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="The SAX License" url="http://www.saxproject.org/copying.html"/>
+				<license name="The W3C License" url="http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407/java-binding.zip"/>
+				<metadata-artifact status="no" details="" size="3132" time="0" location="/Users/Scott/.ivy2/cache/xml-apis/xml-apis/ivy-1.4.01.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.4.01" rev-constraint-default="1.4.01" rev-constraint-dynamic="1.4.01" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="xml-apis" type="jar" ext="jar" status="no" details="" size="220536" time="0" location="/Users/Scott/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar"/>
+					</artifact>
+					<artifact name="xml-apis" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="656529" time="3966" location="/Users/Scott/.ivy2/cache/xml-apis/xml-apis/srcs/xml-apis-1.4.01-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-sources.jar"/>
+					</artifact>
+					<artifact name="xml-apis" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1480162" time="5738" location="/Users/Scott/.ivy2/cache/xml-apis/xml-apis/docs/xml-apis-1.4.01-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.htmlunit" name="htmlunit-core-js">
+			<revision name="2.17" status="release" pubdate="20150603181200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://htmlunit.sourceforge.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="73">
+				<license name="Mozilla Public License version 2.0" url="http://www.mozilla.org/MPL/2.0/"/>
+				<metadata-artifact status="no" details="" size="2639" time="0" location="/Users/Scott/.ivy2/cache/net.sourceforge.htmlunit/htmlunit-core-js/ivy-2.17.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/net/sourceforge/htmlunit/htmlunit-core-js/2.17/htmlunit-core-js-2.17.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.17" rev-constraint-default="2.17" rev-constraint-dynamic="2.17" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="htmlunit-core-js" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="2048599" time="7482" location="/Users/Scott/.ivy2/cache/net.sourceforge.htmlunit/htmlunit-core-js/docs/htmlunit-core-js-2.17-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/sourceforge/htmlunit/htmlunit-core-js/2.17/htmlunit-core-js-2.17-javadoc.jar"/>
+					</artifact>
+					<artifact name="htmlunit-core-js" type="jar" ext="jar" status="no" details="" size="1086732" time="0" location="/Users/Scott/.ivy2/cache/net.sourceforge.htmlunit/htmlunit-core-js/jars/htmlunit-core-js-2.17.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/sourceforge/htmlunit/htmlunit-core-js/2.17/htmlunit-core-js-2.17.jar"/>
+					</artifact>
+					<artifact name="htmlunit-core-js" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="862805" time="5419" location="/Users/Scott/.ivy2/cache/net.sourceforge.htmlunit/htmlunit-core-js/srcs/htmlunit-core-js-2.17-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/sourceforge/htmlunit/htmlunit-core-js/2.17/htmlunit-core-js-2.17-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.10" status="release" pubdate="20141106221500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="72">
+				<metadata-artifact status="no" details="" size="10506" time="0" location="/Users/Scott/.ivy2/cache/commons-codec/commons-codec/ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-codec" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="433991" time="7982" location="/Users/Scott/.ivy2/cache/commons-codec/commons-codec/docs/commons-codec-1.10-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10-javadoc.jar"/>
+					</artifact>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="301032" time="2942" location="/Users/Scott/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.10-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar"/>
+					</artifact>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="284184" time="0" location="/Users/Scott/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpmime">
+			<revision name="4.5" status="release" pubdate="20150531191600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="71">
+				<metadata-artifact status="no" details="" size="9215" time="0" location="/Users/Scott/.ivy2/cache/org.apache.httpcomponents/httpmime/ivy-4.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/httpcomponents/httpmime/4.5/httpmime-4.5.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="4.5" rev-constraint-default="4.5" rev-constraint-dynamic="4.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="httpmime" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="38592" time="1340" location="/Users/Scott/.ivy2/cache/org.apache.httpcomponents/httpmime/srcs/httpmime-4.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/httpcomponents/httpmime/4.5/httpmime-4.5-sources.jar"/>
+					</artifact>
+					<artifact name="httpmime" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="136085" time="3993" location="/Users/Scott/.ivy2/cache/org.apache.httpcomponents/httpmime/docs/httpmime-4.5-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/httpcomponents/httpmime/4.5/httpmime-4.5-javadoc.jar"/>
+					</artifact>
+					<artifact name="httpmime" type="jar" ext="jar" status="no" details="" size="40692" time="0" location="/Users/Scott/.ivy2/cache/org.apache.httpcomponents/httpmime/jars/httpmime-4.5.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/httpcomponents/httpmime/4.5/httpmime-4.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.4" status="release" pubdate="20150403203100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="70">
+				<metadata-artifact status="no" details="" size="11571" time="0" location="/Users/Scott/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="3.4" rev-constraint-default="3.4" rev-constraint-dynamic="3.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="487156" time="3367" location="/Users/Scott/.ivy2/cache/org.apache.commons/commons-lang3/srcs/commons-lang3-3.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar"/>
+					</artifact>
+					<artifact name="commons-lang3" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1093607" time="5851" location="/Users/Scott/.ivy2/cache/org.apache.commons/commons-lang3/docs/commons-lang3-3.4-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="commons-lang3" type="jar" ext="jar" status="no" details="" size="434678" time="0" location="/Users/Scott/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xalan" name="xalan">
+			<revision name="2.7.2" status="release" pubdate="20140725024800" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xml.apache.org/xalan-j/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="68">
+				<metadata-artifact status="no" details="" size="3063" time="0" location="/Users/Scott/.ivy2/cache/xalan/xalan/ivy-2.7.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/xalan/xalan/2.7.2/xalan-2.7.2.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="xalan" type="jar" ext="jar" status="no" details="" size="3154938" time="0" location="/Users/Scott/.ivy2/cache/xalan/xalan/jars/xalan-2.7.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/xalan/xalan/2.7.2/xalan-2.7.2.jar"/>
+					</artifact>
+					<artifact name="xalan" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3395855" time="7962" location="/Users/Scott/.ivy2/cache/xalan/xalan/srcs/xalan-2.7.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/xalan/xalan/2.7.2/xalan-2.7.2-sources.jar"/>
+					</artifact>
+					<artifact name="xalan" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="7986941" time="16503" location="/Users/Scott/.ivy2/cache/xalan/xalan/docs/xalan-2.7.2-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/xalan/xalan/2.7.2/xalan-2.7.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xalan" name="serializer">
+			<revision name="2.7.2" status="release" pubdate="20140725024400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xml.apache.org/xalan-j/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="69">
+				<metadata-artifact status="no" details="" size="2873" time="0" location="/Users/Scott/.ivy2/cache/xalan/serializer/ivy-2.7.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/xalan/serializer/2.7.2/serializer-2.7.2.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="serializer" type="jar" ext="jar" status="no" details="" size="276420" time="0" location="/Users/Scott/.ivy2/cache/xalan/serializer/jars/serializer-2.7.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/xalan/serializer/2.7.2/serializer-2.7.2.jar"/>
+					</artifact>
+					<artifact name="serializer" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="7986941" time="15778" location="/Users/Scott/.ivy2/cache/xalan/serializer/docs/serializer-2.7.2-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/xalan/serializer/2.7.2/serializer-2.7.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="serializer" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3395855" time="16150" location="/Users/Scott/.ivy2/cache/xalan/serializer/srcs/serializer-2.7.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/xalan/serializer/2.7.2/serializer-2.7.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-support">
+			<revision name="2.49.0" status="release" pubdate="20160114050652" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="66">
+				<metadata-artifact status="no" details="" size="4913" time="0" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-support/ivy-2.49.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-support/2.49.0/selenium-support-2.49.0.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.49.0" rev-constraint-default="2.49.0" rev-constraint-dynamic="2.49.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="selenium-support" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="90370" time="2662" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-support/srcs/selenium-support-2.49.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-support/2.49.0/selenium-support-2.49.0-sources.jar"/>
+					</artifact>
+					<artifact name="selenium-support" type="jar" ext="jar" status="no" details="" size="144850" time="0" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-support/jars/selenium-support-2.49.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-support/2.49.0/selenium-support-2.49.0.jar"/>
+					</artifact>
+					<artifact name="selenium-support" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="419705" time="20890" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-support/docs/selenium-support-2.49.0-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-support/2.49.0/selenium-support-2.49.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-edge-driver">
+			<revision name="2.49.0" status="release" pubdate="20160114050649" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="63">
+				<metadata-artifact status="no" details="" size="4974" time="0" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-edge-driver/ivy-2.49.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-edge-driver/2.49.0/selenium-edge-driver-2.49.0.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.49.0" rev-constraint-default="2.49.0" rev-constraint-dynamic="2.49.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="selenium-edge-driver" type="jar" ext="jar" status="no" details="" size="6371" time="0" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-edge-driver/jars/selenium-edge-driver-2.49.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-edge-driver/2.49.0/selenium-edge-driver-2.49.0.jar"/>
+					</artifact>
+					<artifact name="selenium-edge-driver" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="5617" time="1643" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-edge-driver/srcs/selenium-edge-driver-2.49.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-edge-driver/2.49.0/selenium-edge-driver-2.49.0-sources.jar"/>
+					</artifact>
+					<artifact name="selenium-edge-driver" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="44069" time="2645" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-edge-driver/docs/selenium-edge-driver-2.49.0-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-edge-driver/2.49.0/selenium-edge-driver-2.49.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.4" status="release" pubdate="20120612172203" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="64">
+				<metadata-artifact status="no" details="" size="8589" time="0" location="/Users/Scott/.ivy2/cache/commons-io/commons-io/ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-io" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="724124" time="9525" location="/Users/Scott/.ivy2/cache/commons-io/commons-io/docs/commons-io-2.4-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="commons-io" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="246635" time="31024" location="/Users/Scott/.ivy2/cache/commons-io/commons-io/srcs/commons-io-2.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4-sources.jar"/>
+					</artifact>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="185140" time="0" location="/Users/Scott/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-chrome-driver">
+			<revision name="2.49.0" status="release" pubdate="20160114042816" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="51">
+				<metadata-artifact status="no" details="" size="4694" time="0" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-chrome-driver/ivy-2.49.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-chrome-driver/2.49.0/selenium-chrome-driver-2.49.0.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.49.0" rev-constraint-default="2.49.0" rev-constraint-dynamic="2.49.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="selenium-chrome-driver" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="9780" time="1209" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-chrome-driver/srcs/selenium-chrome-driver-2.49.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-chrome-driver/2.49.0/selenium-chrome-driver-2.49.0-sources.jar"/>
+					</artifact>
+					<artifact name="selenium-chrome-driver" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="48906" time="2330" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-chrome-driver/docs/selenium-chrome-driver-2.49.0-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-chrome-driver/2.49.0/selenium-chrome-driver-2.49.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="selenium-chrome-driver" type="jar" ext="jar" status="no" details="" size="10994" time="0" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-chrome-driver/jars/selenium-chrome-driver-2.49.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-chrome-driver/2.49.0/selenium-chrome-driver-2.49.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-remote-driver">
+			<revision name="2.49.0" status="release" pubdate="20160114042827" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="52">
+				<metadata-artifact status="no" details="" size="5687" time="0" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-remote-driver/ivy-2.49.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-remote-driver/2.49.0/selenium-remote-driver-2.49.0.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.49.0" rev-constraint-default="2.49.0" rev-constraint-dynamic="2.49.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="selenium-remote-driver" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="159573" time="2072" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-remote-driver/srcs/selenium-remote-driver-2.49.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-remote-driver/2.49.0/selenium-remote-driver-2.49.0-sources.jar"/>
+					</artifact>
+					<artifact name="selenium-remote-driver" type="jar" ext="jar" status="no" details="" size="234712" time="0" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-remote-driver/jars/selenium-remote-driver-2.49.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/2.49.0/selenium-remote-driver-2.49.0.jar"/>
+					</artifact>
+					<artifact name="selenium-remote-driver" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="714744" time="8397" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-remote-driver/docs/selenium-remote-driver-2.49.0-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-remote-driver/2.49.0/selenium-remote-driver-2.49.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.java.dev.jna" name="jna-platform">
+			<revision name="4.1.0" status="release" pubdate="20140306235800" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twall/jna" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="62">
+				<license name="LGPL, version 2.1" url="http://www.gnu.org/licenses/licenses.html"/>
+				<license name="ASL, version 2" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="2732" time="0" location="/Users/Scott/.ivy2/cache/net.java.dev.jna/jna-platform/ivy-4.1.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="4.1.0" rev-constraint-default="4.1.0" rev-constraint-dynamic="4.1.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jna-platform" type="jar" ext="jar" status="no" details="" size="1464423" time="0" location="/Users/Scott/.ivy2/cache/net.java.dev.jna/jna-platform/jars/jna-platform-4.1.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar"/>
+					</artifact>
+					<artifact name="jna-platform" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="3263761" time="14179" location="/Users/Scott/.ivy2/cache/net.java.dev.jna/jna-platform/docs/jna-platform-4.1.0-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="jna-platform" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="538955" time="5112" location="/Users/Scott/.ivy2/cache/net.java.dev.jna/jna-platform/srcs/jna-platform-4.1.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-exec">
+			<revision name="1.3" status="release" pubdate="20141103082700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-exec/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="60">
+				<metadata-artifact status="no" details="" size="10274" time="0" location="/Users/Scott/.ivy2/cache/org.apache.commons/commons-exec/ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/commons/commons-exec/1.3/commons-exec-1.3.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-exec" type="jar" ext="jar" status="no" details="" size="54423" time="0" location="/Users/Scott/.ivy2/cache/org.apache.commons/commons-exec/jars/commons-exec-1.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar"/>
+					</artifact>
+					<artifact name="commons-exec" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="226192" time="5394" location="/Users/Scott/.ivy2/cache/org.apache.commons/commons-exec/docs/commons-exec-1.3-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/commons/commons-exec/1.3/commons-exec-1.3-javadoc.jar"/>
+					</artifact>
+					<artifact name="commons-exec" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="61886" time="1628" location="/Users/Scott/.ivy2/cache/org.apache.commons/commons-exec/srcs/commons-exec-1.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/commons/commons-exec/1.3/commons-exec-1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-api">
+			<revision name="2.49.0" status="release" pubdate="20160114042828" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="55">
+				<metadata-artifact status="no" details="" size="4974" time="0" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-api/ivy-2.49.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-api/2.49.0/selenium-api-2.49.0.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.49.0" rev-constraint-default="2.49.0" rev-constraint-dynamic="2.49.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="selenium-api" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="172406" time="1792" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-api/srcs/selenium-api-2.49.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-api/2.49.0/selenium-api-2.49.0-sources.jar"/>
+					</artifact>
+					<artifact name="selenium-api" type="jar" ext="jar" status="no" details="" size="144308" time="0" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-api/jars/selenium-api-2.49.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-api/2.49.0/selenium-api-2.49.0.jar"/>
+					</artifact>
+					<artifact name="selenium-api" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="881447" time="39218" location="/Users/Scott/.ivy2/cache/org.seleniumhq.selenium/selenium-api/docs/selenium-api-2.49.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/2.49.0/selenium-api-2.49.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.5.1" status="release" pubdate="20150915203515" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="57">
+				<metadata-artifact status="no" details="" size="9700" time="0" location="/Users/Scott/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.5.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="4.5.1" rev-constraint-default="4.5.1" rev-constraint-dynamic="4.5.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="httpclient" type="jar" ext="jar" status="no" details="" size="732765" time="0" location="/Users/Scott/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.5.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar"/>
+					</artifact>
+					<artifact name="httpclient" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="706648" time="6754" location="/Users/Scott/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.5.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1-sources.jar"/>
+					</artifact>
+					<artifact name="httpclient" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="2342361" time="8815" location="/Users/Scott/.ivy2/cache/org.apache.httpcomponents/httpclient/docs/httpclient-4.5.1-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.4.3" status="release" pubdate="20150909191343" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="58">
+				<metadata-artifact status="no" details="" size="7603" time="0" location="/Users/Scott/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.4.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="4.4.3" rev-constraint-default="4.4.3" rev-constraint-dynamic="4.4.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="httpcore" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="405184" time="3552" location="/Users/Scott/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.4.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3-sources.jar"/>
+					</artifact>
+					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="326594" time="0" location="/Users/Scott/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.4.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3.jar"/>
+					</artifact>
+					<artifact name="httpcore" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1518889" time="8934" location="/Users/Scott/.ivy2/cache/org.apache.httpcomponents/httpcore/docs/httpcore-4.4.3-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.2" status="release" pubdate="20140706021200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="59">
+				<metadata-artifact status="no" details="" size="11508" time="0" location="/Users/Scott/.ivy2/cache/commons-logging/commons-logging/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-logging/commons-logging/1.2/commons-logging-1.2.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-logging" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="158448" time="3062" location="/Users/Scott/.ivy2/cache/commons-logging/commons-logging/docs/commons-logging-1.2-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-logging/commons-logging/1.2/commons-logging-1.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="61829" time="0" location="/Users/Scott/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
+					</artifact>
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="73295" time="2457" location="/Users/Scott/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="19.0" status="release" pubdate="20151210164543" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="56">
+				<metadata-artifact status="no" details="" size="6241" time="0" location="/Users/Scott/.ivy2/cache/com.google.guava/guava/ivy-19.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/guava/guava/19.0/guava-19.0.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="19.0" rev-constraint-default="19.0" rev-constraint-dynamic="19.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1319216" time="53417" location="/Users/Scott/.ivy2/cache/com.google.guava/guava/srcs/guava-19.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/19.0/guava-19.0-sources.jar"/>
+					</artifact>
+					<artifact name="guava" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="5260840" time="14770" location="/Users/Scott/.ivy2/cache/com.google.guava/guava/docs/guava-19.0-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/guava/guava/19.0/guava-19.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="guava" type="jar" ext="jar" status="successful" details="" size="2308517" time="14863" location="/Users/Scott/.ivy2/cache/com.google.guava/guava/jars/guava-19.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/guava/guava/19.0/guava-19.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.gson" name="gson">
+			<revision name="2.3.1" status="release" pubdate="20141120174200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/google-gson/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="54">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3384" time="0" location="/Users/Scott/.ivy2/cache/com.google.code.gson/gson/ivy-2.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/code/gson/gson/2.3.1/gson-2.3.1.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="gson" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="257555" time="4444" location="/Users/Scott/.ivy2/cache/com.google.code.gson/gson/docs/gson-2.3.1-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/code/gson/gson/2.3.1/gson-2.3.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="gson" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="139924" time="2022" location="/Users/Scott/.ivy2/cache/com.google.code.gson/gson/srcs/gson-2.3.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/code/gson/gson/2.3.1/gson-2.3.1-sources.jar"/>
+					</artifact>
+					<artifact name="gson" type="jar" ext="jar" status="no" details="" size="210856" time="0" location="/Users/Scott/.ivy2/cache/com.google.code.gson/gson/jars/gson-2.3.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="cglib" name="cglib-nodep">
+			<revision name="2.1_3" status="release" pubdate="20080831194543" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://cglib.sourceforge.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="53">
+				<metadata-artifact status="no" details="" size="2343" time="0" location="/Users/Scott/.ivy2/cache/cglib/cglib-nodep/ivy-2.1_3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.1_3" rev-constraint-default="2.1_3" rev-constraint-dynamic="2.1_3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="cglib-nodep" type="doc" ext="jar" extra-classifier="javadoc" status="failed" details="" size="0" time="0"/>
+					<artifact name="cglib-nodep" type="jar" ext="jar" status="no" details="" size="324238" time="0" location="/Users/Scott/.ivy2/cache/cglib/cglib-nodep/jars/cglib-nodep-2.1_3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar"/>
+					</artifact>
+					<artifact name="cglib-nodep" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="170483" time="2805" location="/Users/Scott/.ivy2/cache/cglib/cglib-nodep/srcs/cglib-nodep-2.1_3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.elasticsearch" name="elasticsearch">
+			<revision name="2.1.1" status="release" pubdate="20151218040126" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="20">
+				<metadata-artifact status="no" details="" size="22035" time="0" location="/Users/Scott/.ivy2/cache/org.elasticsearch/elasticsearch/ivy-2.1.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/elasticsearch/elasticsearch/2.1.1/elasticsearch-2.1.1.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="elasticsearch" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5307732" time="0" location="/Users/Scott/.ivy2/cache/org.elasticsearch/elasticsearch/srcs/elasticsearch-2.1.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/elasticsearch/elasticsearch/2.1.1/elasticsearch-2.1.1-sources.jar"/>
+					</artifact>
+					<artifact name="elasticsearch" type="jar" ext="jar" status="no" details="" size="9248351" time="0" location="/Users/Scott/.ivy2/cache/org.elasticsearch/elasticsearch/jars/elasticsearch-2.1.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/elasticsearch/elasticsearch/2.1.1/elasticsearch-2.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="jsr166e">
+			<revision name="1.1.0" status="release" pubdate="20140215015500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/twitter/jsr166e" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="49">
+				<license name="CC0 1.0 Universal" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2830" time="0" location="/Users/Scott/.ivy2/cache/com.twitter/jsr166e/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/jsr166e/1.1.0/jsr166e-1.1.0.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jsr166e" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="113786" time="0" location="/Users/Scott/.ivy2/cache/com.twitter/jsr166e/docs/jsr166e-1.1.0-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/jsr166e/1.1.0/jsr166e-1.1.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="jsr166e" type="jar" ext="jar" status="no" details="" size="62226" time="0" location="/Users/Scott/.ivy2/cache/com.twitter/jsr166e/jars/jsr166e-1.1.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/jsr166e/1.1.0/jsr166e-1.1.0.jar"/>
+					</artifact>
+					<artifact name="jsr166e" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="73410" time="0" location="/Users/Scott/.ivy2/cache/com.twitter/jsr166e/srcs/jsr166e-1.1.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/jsr166e/1.1.0/jsr166e-1.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.java.dev.jna" name="jna">
+			<revision name="4.1.0" status="release" pubdate="20140306235600" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twall/jna" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="61">
+				<license name="LGPL, version 2.1" url="http://www.gnu.org/licenses/licenses.html"/>
+				<license name="ASL, version 2" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="2534" time="0" location="/Users/Scott/.ivy2/cache/net.java.dev.jna/jna/ivy-4.1.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/net/java/dev/jna/jna/4.1.0/jna-4.1.0.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="4.1.0" rev-constraint-default="4.1.0" rev-constraint-dynamic="4.1.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jna" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="3263761" time="12551" location="/Users/Scott/.ivy2/cache/net.java.dev.jna/jna/docs/jna-4.1.0-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/java/dev/jna/jna/4.1.0/jna-4.1.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="jna" type="jar" ext="jar" status="no" details="" size="914597" time="0" location="/Users/Scott/.ivy2/cache/net.java.dev.jna/jna/jars/jna-4.1.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"/>
+					</artifact>
+					<artifact name="jna" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="135355" time="2917" location="/Users/Scott/.ivy2/cache/net.java.dev.jna/jna/srcs/jna-4.1.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/java/dev/jna/jna/4.1.0/jna-4.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-cli" name="commons-cli">
+			<revision name="1.3.1" status="release" pubdate="20150614180600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-cli/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="48">
+				<metadata-artifact status="no" details="" size="10717" time="0" location="/Users/Scott/.ivy2/cache/commons-cli/commons-cli/ivy-1.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-cli" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="58823" time="0" location="/Users/Scott/.ivy2/cache/commons-cli/commons-cli/srcs/commons-cli-1.3.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1-sources.jar"/>
+					</artifact>
+					<artifact name="commons-cli" type="jar" ext="jar" status="no" details="" size="52988" time="0" location="/Users/Scott/.ivy2/cache/commons-cli/commons-cli/jars/commons-cli-1.3.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1.jar"/>
+					</artifact>
+					<artifact name="commons-cli" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="169756" time="0" location="/Users/Scott/.ivy2/cache/commons-cli/commons-cli/docs/commons-cli-1.3.1-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hdrhistogram" name="HdrHistogram">
+			<revision name="2.1.6" status="release" pubdate="20150729232419" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hdrhistogram.github.io/HdrHistogram/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="47">
+				<license name="Public Domain, per Creative Commons CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="4190" time="0" location="/Users/Scott/.ivy2/cache/org.hdrhistogram/HdrHistogram/ivy-2.1.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/hdrhistogram/HdrHistogram/2.1.6/HdrHistogram-2.1.6.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.1.6" rev-constraint-default="2.1.6" rev-constraint-dynamic="2.1.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="HdrHistogram" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="104887" time="0" location="/Users/Scott/.ivy2/cache/org.hdrhistogram/HdrHistogram/srcs/HdrHistogram-2.1.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/hdrhistogram/HdrHistogram/2.1.6/HdrHistogram-2.1.6-sources.jar"/>
+					</artifact>
+					<artifact name="HdrHistogram" type="jar" ext="jar" status="no" details="" size="109723" time="0" location="/Users/Scott/.ivy2/cache/org.hdrhistogram/HdrHistogram/jars/HdrHistogram-2.1.6.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/hdrhistogram/HdrHistogram/2.1.6/HdrHistogram-2.1.6.jar"/>
+					</artifact>
+					<artifact name="HdrHistogram" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="296562" time="0" location="/Users/Scott/.ivy2/cache/org.hdrhistogram/HdrHistogram/docs/HdrHistogram-2.1.6-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/hdrhistogram/HdrHistogram/2.1.6/HdrHistogram-2.1.6-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.tdunning" name="t-digest">
+			<revision name="3.0" status="release" pubdate="20140513110900" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/tdunning/t-digest" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="46">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3737" time="0" location="/Users/Scott/.ivy2/cache/com.tdunning/t-digest/ivy-3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/tdunning/t-digest/3.0/t-digest-3.0.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="t-digest" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="82573" time="0" location="/Users/Scott/.ivy2/cache/com.tdunning/t-digest/docs/t-digest-3.0-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/tdunning/t-digest/3.0/t-digest-3.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="t-digest" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30094" time="0" location="/Users/Scott/.ivy2/cache/com.tdunning/t-digest/srcs/t-digest-3.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/tdunning/t-digest/3.0/t-digest-3.0-sources.jar"/>
+					</artifact>
+					<artifact name="t-digest" type="jar" ext="jar" status="no" details="" size="49754" time="0" location="/Users/Scott/.ivy2/cache/com.tdunning/t-digest/jars/t-digest-3.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/tdunning/t-digest/3.0/t-digest-3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.ning" name="compress-lzf">
+			<revision name="1.0.2" status="release" pubdate="20140810004200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/ning/compress" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="45">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3554" time="0" location="/Users/Scott/.ivy2/cache/com.ning/compress-lzf/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/ning/compress-lzf/1.0.2/compress-lzf-1.0.2.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="compress-lzf" type="jar" ext="jar" status="no" details="" size="79732" time="0" location="/Users/Scott/.ivy2/cache/com.ning/compress-lzf/jars/compress-lzf-1.0.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/ning/compress-lzf/1.0.2/compress-lzf-1.0.2.jar"/>
+					</artifact>
+					<artifact name="compress-lzf" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="69893" time="0" location="/Users/Scott/.ivy2/cache/com.ning/compress-lzf/srcs/compress-lzf-1.0.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/ning/compress-lzf/1.0.2/compress-lzf-1.0.2-sources.jar"/>
+					</artifact>
+					<artifact name="compress-lzf" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="272197" time="0" location="/Users/Scott/.ivy2/cache/com.ning/compress-lzf/docs/compress-lzf-1.0.2-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/ning/compress-lzf/1.0.2/compress-lzf-1.0.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.10.5.Final" status="release" pubdate="20151014173124" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="44">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="7197" time="0" location="/Users/Scott/.ivy2/cache/io.netty/netty/ivy-3.10.5.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty/3.10.5.Final/netty-3.10.5.Final.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="3.10.5.Final" rev-constraint-default="3.10.5.Final" rev-constraint-dynamic="3.10.5.Final" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1154000" time="0" location="/Users/Scott/.ivy2/cache/io.netty/netty/srcs/netty-3.10.5.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty/3.10.5.Final/netty-3.10.5.Final-sources.jar"/>
+					</artifact>
+					<artifact name="netty" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="3395259" time="0" location="/Users/Scott/.ivy2/cache/io.netty/netty/docs/netty-3.10.5.Final-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty/3.10.5.Final/netty-3.10.5.Final-javadoc.jar"/>
+					</artifact>
+					<artifact name="netty" type="jar" ext="jar" status="no" details="" size="1330394" time="0" location="/Users/Scott/.ivy2/cache/io.netty/netty/jars/netty-3.10.5.Final.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty/3.10.5.Final/netty-3.10.5.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.dataformat" name="jackson-dataformat-cbor">
+			<revision name="2.6.2" status="release" pubdate="20150925210807" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonForCbor" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="43">
+				<metadata-artifact status="no" details="" size="7383" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/ivy-2.6.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.2/jackson-dataformat-cbor-2.6.2.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-dataformat-cbor" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="38253" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/srcs/jackson-dataformat-cbor-2.6.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.2/jackson-dataformat-cbor-2.6.2-sources.jar"/>
+					</artifact>
+					<artifact name="jackson-dataformat-cbor" type="jar" ext="jar" status="no" details="" size="48148" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/jars/jackson-dataformat-cbor-2.6.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.2/jackson-dataformat-cbor-2.6.2.jar"/>
+					</artifact>
+					<artifact name="jackson-dataformat-cbor" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="114427" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/docs/jackson-dataformat-cbor-2.6.2-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.2/jackson-dataformat-cbor-2.6.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.dataformat" name="jackson-dataformat-yaml">
+			<revision name="2.6.2" status="release" pubdate="20150916102915" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="41">
+				<metadata-artifact status="no" details="" size="8842" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/ivy-2.6.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.6.2/jackson-dataformat-yaml-2.6.2.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-dataformat-yaml" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="104502" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/docs/jackson-dataformat-yaml-2.6.2-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.6.2/jackson-dataformat-yaml-2.6.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="jackson-dataformat-yaml" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="26666" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/srcs/jackson-dataformat-yaml-2.6.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.6.2/jackson-dataformat-yaml-2.6.2-sources.jar"/>
+					</artifact>
+					<artifact name="jackson-dataformat-yaml" type="jar" ext="jar" status="no" details="" size="320441" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/jars/jackson-dataformat-yaml-2.6.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.6.2/jackson-dataformat-yaml-2.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.yaml" name="snakeyaml">
+			<revision name="1.15" status="release" pubdate="20150219212700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.snakeyaml.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="42">
+				<license name="Apache License Version 2.0" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3591" time="0" location="/Users/Scott/.ivy2/cache/org.yaml/snakeyaml/ivy-1.15.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/yaml/snakeyaml/1.15/snakeyaml-1.15.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.15" rev-constraint-default="1.15" rev-constraint-dynamic="1.15" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="snakeyaml" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="169119" time="0" location="/Users/Scott/.ivy2/cache/org.yaml/snakeyaml/srcs/snakeyaml-1.15-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/yaml/snakeyaml/1.15/snakeyaml-1.15-sources.jar"/>
+					</artifact>
+					<artifact name="snakeyaml" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="746052" time="0" location="/Users/Scott/.ivy2/cache/org.yaml/snakeyaml/docs/snakeyaml-1.15-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/yaml/snakeyaml/1.15/snakeyaml-1.15-javadoc.jar"/>
+					</artifact>
+					<artifact name="snakeyaml" type="jar" ext="jar" status="no" details="" size="269295" time="0" location="/Users/Scott/.ivy2/cache/org.yaml/snakeyaml/jars/snakeyaml-1.15.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/yaml/snakeyaml/1.15/snakeyaml-1.15.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.dataformat" name="jackson-dataformat-smile">
+			<revision name="2.6.2" status="release" pubdate="20150916173928" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonForSmile" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="40">
+				<metadata-artifact status="no" details="" size="7389" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/ivy-2.6.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.6.2/jackson-dataformat-smile-2.6.2.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-dataformat-smile" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="171227" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/docs/jackson-dataformat-smile-2.6.2-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.6.2/jackson-dataformat-smile-2.6.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="jackson-dataformat-smile" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="71037" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/srcs/jackson-dataformat-smile-2.6.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.6.2/jackson-dataformat-smile-2.6.2-sources.jar"/>
+					</artifact>
+					<artifact name="jackson-dataformat-smile" type="jar" ext="jar" status="no" details="" size="75941" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/jars/jackson-dataformat-smile-2.6.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.6.2/jackson-dataformat-smile-2.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.6.2" status="release" pubdate="20150915141958" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="39">
+				<metadata-artifact status="no" details="" size="6833" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.6.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.6.2/jackson-core-2.6.2.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-core" type="jar" ext="jar" status="no" details="" size="258824" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/jars/jackson-core-2.6.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.6.2/jackson-core-2.6.2.jar"/>
+					</artifact>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="271945" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.6.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.6.2/jackson-core-2.6.2-sources.jar"/>
+					</artifact>
+					<artifact name="jackson-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="914562" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/docs/jackson-core-2.6.2-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.6.2/jackson-core-2.6.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.8.2" status="release" pubdate="20150811195900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="37">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6595" time="0" location="/Users/Scott/.ivy2/cache/joda-time/joda-time/ivy-2.8.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/joda-time/joda-time/2.8.2/joda-time-2.8.2.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.8.2" rev-constraint-default="2.8.2" rev-constraint-dynamic="2.8.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="joda-time" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1319362" time="0" location="/Users/Scott/.ivy2/cache/joda-time/joda-time/docs/joda-time-2.8.2-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/joda-time/joda-time/2.8.2/joda-time-2.8.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="621992" time="0" location="/Users/Scott/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/joda-time/joda-time/2.8.2/joda-time-2.8.2.jar"/>
+					</artifact>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="762254" time="0" location="/Users/Scott/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.8.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/joda-time/joda-time/2.8.2/joda-time-2.8.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.2" status="release" pubdate="20131007013714" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://joda-convert.sourceforge.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="38">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3246" time="0" location="/Users/Scott/.ivy2/cache/org.joda/joda-convert/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/joda/joda-convert/1.2/joda-convert-1.2.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="joda-convert" type="jar" ext="jar" status="no" details="" size="38460" time="0" location="/Users/Scott/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/joda/joda-convert/1.2/joda-convert-1.2.jar"/>
+					</artifact>
+					<artifact name="joda-convert" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="56597" time="0" location="/Users/Scott/.ivy2/cache/org.joda/joda-convert/docs/joda-convert-1.2-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/joda/joda-convert/1.2/joda-convert-1.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="joda-convert" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19105" time="0" location="/Users/Scott/.ivy2/cache/org.joda/joda-convert/srcs/joda-convert-1.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/joda/joda-convert/1.2/joda-convert-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.carrotsearch" name="hppc">
+			<revision name="0.7.1" status="release" pubdate="20150507153300" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="36">
+				<metadata-artifact status="no" details="" size="6994" time="0" location="/Users/Scott/.ivy2/cache/com.carrotsearch/hppc/ivy-0.7.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/carrotsearch/hppc/0.7.1/hppc-0.7.1.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="0.7.1" rev-constraint-default="0.7.1" rev-constraint-dynamic="0.7.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="hppc" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="3234449" time="0" location="/Users/Scott/.ivy2/cache/com.carrotsearch/hppc/docs/hppc-0.7.1-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/carrotsearch/hppc/0.7.1/hppc-0.7.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="hppc" type="jar" ext="jar" status="no" details="" size="1140290" time="0" location="/Users/Scott/.ivy2/cache/com.carrotsearch/hppc/jars/hppc-0.7.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/carrotsearch/hppc/0.7.1/hppc-0.7.1.jar"/>
+					</artifact>
+					<artifact name="hppc" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="738368" time="0" location="/Users/Scott/.ivy2/cache/com.carrotsearch/hppc/srcs/hppc-0.7.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/carrotsearch/hppc/0.7.1/hppc-0.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-spatial">
+			<revision name="5.3.1" status="release" pubdate="20151001110422" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="33">
+				<metadata-artifact status="no" details="" size="456186" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-spatial/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-spatial/5.3.1/lucene-spatial-5.3.1.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-spatial" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="152236" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-spatial/srcs/lucene-spatial-5.3.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-spatial/5.3.1/lucene-spatial-5.3.1-sources.jar"/>
+					</artifact>
+					<artifact name="lucene-spatial" type="jar" ext="jar" status="no" details="" size="198677" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-spatial/jars/lucene-spatial-5.3.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-spatial/5.3.1/lucene-spatial-5.3.1.jar"/>
+					</artifact>
+					<artifact name="lucene-spatial" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="486561" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-spatial/docs/lucene-spatial-5.3.1-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-spatial/5.3.1/lucene-spatial-5.3.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.spatial4j" name="spatial4j">
+			<revision name="0.4.1" status="release" pubdate="20140219001100" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spatial4j/spatial4j" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="35">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4157" time="0" location="/Users/Scott/.ivy2/cache/com.spatial4j/spatial4j/ivy-0.4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/spatial4j/spatial4j/0.4.1/spatial4j-0.4.1.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="0.4.1" rev-constraint-default="0.4.1" rev-constraint-dynamic="0.4.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spatial4j" type="jar" ext="jar" status="no" details="" size="102177" time="0" location="/Users/Scott/.ivy2/cache/com.spatial4j/spatial4j/jars/spatial4j-0.4.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/spatial4j/spatial4j/0.4.1/spatial4j-0.4.1.jar"/>
+					</artifact>
+					<artifact name="spatial4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="91814" time="0" location="/Users/Scott/.ivy2/cache/com.spatial4j/spatial4j/srcs/spatial4j-0.4.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/spatial4j/spatial4j/0.4.1/spatial4j-0.4.1-sources.jar"/>
+					</artifact>
+					<artifact name="spatial4j" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="370667" time="0" location="/Users/Scott/.ivy2/cache/com.spatial4j/spatial4j/docs/spatial4j-0.4.1-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/spatial4j/spatial4j/0.4.1/spatial4j-0.4.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-spatial3d">
+			<revision name="5.3.1" status="release" pubdate="20151006000353" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="34">
+				<metadata-artifact status="no" details="" size="455252" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-spatial3d/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-spatial3d/5.3.1/lucene-spatial3d-5.3.1.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-spatial3d" type="jar" ext="jar" status="no" details="" size="124473" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-spatial3d/jars/lucene-spatial3d-5.3.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-spatial3d/5.3.1/lucene-spatial3d-5.3.1.jar"/>
+					</artifact>
+					<artifact name="lucene-spatial3d" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="458170" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-spatial3d/docs/lucene-spatial3d-5.3.1-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-spatial3d/5.3.1/lucene-spatial3d-5.3.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="lucene-spatial3d" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="125369" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-spatial3d/srcs/lucene-spatial3d-5.3.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-spatial3d/5.3.1/lucene-spatial3d-5.3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-suggest">
+			<revision name="5.3.1" status="release" pubdate="20151001110423" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="31">
+				<metadata-artifact status="no" details="" size="456037" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-suggest/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-suggest/5.3.1/lucene-suggest-5.3.1.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-suggest" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="568196" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-suggest/docs/lucene-suggest-5.3.1-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-suggest/5.3.1/lucene-suggest-5.3.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="lucene-suggest" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="197756" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-suggest/srcs/lucene-suggest-5.3.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-suggest/5.3.1/lucene-suggest-5.3.1-sources.jar"/>
+					</artifact>
+					<artifact name="lucene-suggest" type="jar" ext="jar" status="no" details="" size="245989" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-suggest/jars/lucene-suggest-5.3.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-suggest/5.3.1/lucene-suggest-5.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-misc">
+			<revision name="5.3.1" status="release" pubdate="20151001110421" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="32">
+				<metadata-artifact status="no" details="" size="455210" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-misc/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-misc/5.3.1/lucene-misc-5.3.1.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-misc" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="118509" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-misc/srcs/lucene-misc-5.3.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-misc/5.3.1/lucene-misc-5.3.1-sources.jar"/>
+					</artifact>
+					<artifact name="lucene-misc" type="jar" ext="jar" status="no" details="" size="172303" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-misc/jars/lucene-misc-5.3.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-misc/5.3.1/lucene-misc-5.3.1.jar"/>
+					</artifact>
+					<artifact name="lucene-misc" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="257276" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-misc/docs/lucene-misc-5.3.1-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-misc/5.3.1/lucene-misc-5.3.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-highlighter">
+			<revision name="5.3.1" status="release" pubdate="20151001110417" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="26">
+				<metadata-artifact status="no" details="" size="456460" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-highlighter/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-highlighter/5.3.1/lucene-highlighter-5.3.1.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-highlighter" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="123327" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-highlighter/srcs/lucene-highlighter-5.3.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-highlighter/5.3.1/lucene-highlighter-5.3.1-sources.jar"/>
+					</artifact>
+					<artifact name="lucene-highlighter" type="jar" ext="jar" status="no" details="" size="144470" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-highlighter/jars/lucene-highlighter-5.3.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-highlighter/5.3.1/lucene-highlighter-5.3.1.jar"/>
+					</artifact>
+					<artifact name="lucene-highlighter" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="408155" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-highlighter/docs/lucene-highlighter-5.3.1-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-highlighter/5.3.1/lucene-highlighter-5.3.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-join">
+			<revision name="5.3.1" status="release" pubdate="20151001110419" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="27">
+				<metadata-artifact status="no" details="" size="455584" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-join/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-join/5.3.1/lucene-join-5.3.1.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-join" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="131647" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-join/docs/lucene-join-5.3.1-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-join/5.3.1/lucene-join-5.3.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="lucene-join" type="jar" ext="jar" status="no" details="" size="119046" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-join/jars/lucene-join-5.3.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-join/5.3.1/lucene-join-5.3.1.jar"/>
+					</artifact>
+					<artifact name="lucene-join" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="62576" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-join/srcs/lucene-join-5.3.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-join/5.3.1/lucene-join-5.3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-grouping">
+			<revision name="5.3.1" status="release" pubdate="20151001110418" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="28">
+				<metadata-artifact status="no" details="" size="455487" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-grouping/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-grouping/5.3.1/lucene-grouping-5.3.1.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-grouping" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="265843" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-grouping/docs/lucene-grouping-5.3.1-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-grouping/5.3.1/lucene-grouping-5.3.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="lucene-grouping" type="jar" ext="jar" status="no" details="" size="108513" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-grouping/jars/lucene-grouping-5.3.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-grouping/5.3.1/lucene-grouping-5.3.1.jar"/>
+					</artifact>
+					<artifact name="lucene-grouping" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="71579" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-grouping/srcs/lucene-grouping-5.3.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-grouping/5.3.1/lucene-grouping-5.3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-memory">
+			<revision name="5.3.1" status="release" pubdate="20151001110420" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="25">
+				<metadata-artifact status="no" details="" size="455727" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-memory/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-memory/5.3.1/lucene-memory-5.3.1.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-memory" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="61662" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-memory/docs/lucene-memory-5.3.1-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-memory/5.3.1/lucene-memory-5.3.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="lucene-memory" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="24583" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-memory/srcs/lucene-memory-5.3.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-memory/5.3.1/lucene-memory-5.3.1-sources.jar"/>
+					</artifact>
+					<artifact name="lucene-memory" type="jar" ext="jar" status="no" details="" size="33291" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-memory/jars/lucene-memory-5.3.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-memory/5.3.1/lucene-memory-5.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-queryparser">
+			<revision name="5.3.1" status="release" pubdate="20150929170840" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="29">
+				<metadata-artifact status="no" details="" size="455883" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-queryparser/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-queryparser/5.3.1/lucene-queryparser-5.3.1.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-queryparser" type="jar" ext="jar" status="no" details="" size="401310" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-queryparser/jars/lucene-queryparser-5.3.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-queryparser/5.3.1/lucene-queryparser-5.3.1.jar"/>
+					</artifact>
+					<artifact name="lucene-queryparser" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="403791" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-queryparser/srcs/lucene-queryparser-5.3.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-queryparser/5.3.1/lucene-queryparser-5.3.1-sources.jar"/>
+					</artifact>
+					<artifact name="lucene-queryparser" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1469880" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-queryparser/docs/lucene-queryparser-5.3.1-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-queryparser/5.3.1/lucene-queryparser-5.3.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-sandbox">
+			<revision name="5.3.1" status="release" pubdate="20150930025800" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="30">
+				<metadata-artifact status="no" details="" size="455347" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-sandbox/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-sandbox/5.3.1/lucene-sandbox-5.3.1.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-sandbox" type="jar" ext="jar" status="no" details="" size="266751" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-sandbox/jars/lucene-sandbox-5.3.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-sandbox/5.3.1/lucene-sandbox-5.3.1.jar"/>
+					</artifact>
+					<artifact name="lucene-sandbox" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="322823" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-sandbox/docs/lucene-sandbox-5.3.1-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-sandbox/5.3.1/lucene-sandbox-5.3.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="lucene-sandbox" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="200896" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-sandbox/srcs/lucene-sandbox-5.3.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-sandbox/5.3.1/lucene-sandbox-5.3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-queries">
+			<revision name="5.3.1" status="release" pubdate="20150930025801" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="24">
+				<metadata-artifact status="no" details="" size="455209" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-queries/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-queries/5.3.1/lucene-queries-5.3.1.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-queries" type="jar" ext="jar" status="no" details="" size="212088" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-queries/jars/lucene-queries-5.3.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-queries/5.3.1/lucene-queries-5.3.1.jar"/>
+					</artifact>
+					<artifact name="lucene-queries" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="133476" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-queries/srcs/lucene-queries-5.3.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-queries/5.3.1/lucene-queries-5.3.1-sources.jar"/>
+					</artifact>
+					<artifact name="lucene-queries" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="484376" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-queries/docs/lucene-queries-5.3.1-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-queries/5.3.1/lucene-queries-5.3.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-analyzers-common">
+			<revision name="5.3.1" status="release" pubdate="20150929170842" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="23">
+				<metadata-artifact status="no" details="" size="455237" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-analyzers-common/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-analyzers-common/5.3.1/lucene-analyzers-common-5.3.1.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-analyzers-common" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="2665261" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-analyzers-common/docs/lucene-analyzers-common-5.3.1-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-analyzers-common/5.3.1/lucene-analyzers-common-5.3.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="lucene-analyzers-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1526286" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-analyzers-common/srcs/lucene-analyzers-common-5.3.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-analyzers-common/5.3.1/lucene-analyzers-common-5.3.1-sources.jar"/>
+					</artifact>
+					<artifact name="lucene-analyzers-common" type="jar" ext="jar" status="no" details="" size="1562970" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-analyzers-common/jars/lucene-analyzers-common-5.3.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-analyzers-common/5.3.1/lucene-analyzers-common-5.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-backward-codecs">
+			<revision name="5.3.1" status="release" pubdate="20151001110415" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
+				<metadata-artifact status="no" details="" size="455248" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-backward-codecs/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-backward-codecs/5.3.1/lucene-backward-codecs-5.3.1.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-backward-codecs" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="212367" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-backward-codecs/srcs/lucene-backward-codecs-5.3.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-backward-codecs/5.3.1/lucene-backward-codecs-5.3.1-sources.jar"/>
+					</artifact>
+					<artifact name="lucene-backward-codecs" type="jar" ext="jar" status="no" details="" size="383678" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-backward-codecs/jars/lucene-backward-codecs-5.3.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-backward-codecs/5.3.1/lucene-backward-codecs-5.3.1.jar"/>
+					</artifact>
+					<artifact name="lucene-backward-codecs" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="270002" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-backward-codecs/docs/lucene-backward-codecs-5.3.1-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-backward-codecs/5.3.1/lucene-backward-codecs-5.3.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-core">
+			<revision name="5.3.1" status="release" pubdate="20150929170840" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="21">
+				<metadata-artifact status="no" details="" size="454139" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-core/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-core/5.3.1/lucene-core-5.3.1.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="4735900" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-core/docs/lucene-core-5.3.1-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-core/5.3.1/lucene-core-5.3.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="lucene-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1809178" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-core/srcs/lucene-core-5.3.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-core/5.3.1/lucene-core-5.3.1-sources.jar"/>
+					</artifact>
+					<artifact name="lucene-core" type="jar" ext="jar" status="no" details="" size="2356393" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-core/jars/lucene-core-5.3.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-core/5.3.1/lucene-core-5.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
+			<revision name="2.4.1" status="release" pubdate="20151127072833" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="18">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2792" time="0" location="/Users/Scott/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/ivy-2.4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.1/akka-actor_2.11-2.4.1.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.4.1" rev-constraint-default="2.4.1" rev-constraint-dynamic="2.4.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="akka-actor_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="3689223" time="0" location="/Users/Scott/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/docs/akka-actor_2.11-2.4.1-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.1/akka-actor_2.11-2.4.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="akka-actor_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="376128" time="0" location="/Users/Scott/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.4.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.1/akka-actor_2.11-2.4.1-sources.jar"/>
+					</artifact>
+					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="no" details="" size="3134368" time="0" location="/Users/Scott/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.1/akka-actor_2.11-2.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.3.0" status="release" pubdate="20150508104600" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="19">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2875" time="0" location="/Users/Scott/.ivy2/cache/com.typesafe/config/ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="config" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="442657" time="0" location="/Users/Scott/.ivy2/cache/com.typesafe/config/docs/config-1.3.0-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="167084" time="0" location="/Users/Scott/.ivy2/cache/com.typesafe/config/srcs/config-1.3.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0-sources.jar"/>
+					</artifact>
+					<artifact name="config" type="jar" ext="jar" status="no" details="" size="277782" time="0" location="/Users/Scott/.ivy2/cache/com.typesafe/config/jars/config-1.3.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-json_2.11">
+			<revision name="1.3.2" status="release" pubdate="20150506090100" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spray/spray-json" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="17">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3083" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-json_2.11/ivy-1.3.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spray-json_2.11" type="jar" ext="jar" status="no" details="" size="286389" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-json_2.11/jars/spray-json_2.11-1.3.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.jar"/>
+					</artifact>
+					<artifact name="spray-json_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="22871" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-json_2.11/srcs/spray-json_2.11-1.3.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2-sources.jar"/>
+					</artifact>
+					<artifact name="spray-json_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="651012" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-json_2.11/docs/spray-json_2.11-1.3.2-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-client_2.11">
+			<revision name="1.3.3" status="release" pubdate="20150324215200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3704" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-client_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-client_2.11/1.3.3/spray-client_2.11-1.3.3.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spray-client_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3912" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-client_2.11/srcs/spray-client_2.11-1.3.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-client_2.11/1.3.3/spray-client_2.11-1.3.3-sources.jar"/>
+					</artifact>
+					<artifact name="spray-client_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="385170" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-client_2.11/docs/spray-client_2.11-1.3.3-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-client_2.11/1.3.3/spray-client_2.11-1.3.3-javadoc.jar"/>
+					</artifact>
+					<artifact name="spray-client_2.11" type="jar" ext="jar" status="no" details="" size="44338" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-client_2.11/jars/spray-client_2.11-1.3.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-client_2.11/1.3.3/spray-client_2.11-1.3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-servlet_2.11">
+			<revision name="1.3.3" status="release" pubdate="20150324085300" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3465" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-servlet_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-servlet_2.11/1.3.3/spray-servlet_2.11-1.3.3.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spray-servlet_2.11" type="jar" ext="jar" status="no" details="" size="65649" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-servlet_2.11/jars/spray-servlet_2.11-1.3.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-servlet_2.11/1.3.3/spray-servlet_2.11-1.3.3.jar"/>
+					</artifact>
+					<artifact name="spray-servlet_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="387318" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-servlet_2.11/docs/spray-servlet_2.11-1.3.3-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-servlet_2.11/1.3.3/spray-servlet_2.11-1.3.3-javadoc.jar"/>
+					</artifact>
+					<artifact name="spray-servlet_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11946" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-servlet_2.11/srcs/spray-servlet_2.11-1.3.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-servlet_2.11/1.3.3/spray-servlet_2.11-1.3.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-routing_2.11">
+			<revision name="1.3.3" status="release" pubdate="20150324084900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="11">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3750" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-routing_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-routing_2.11/1.3.3/spray-routing_2.11-1.3.3.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spray-routing_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1298672" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-routing_2.11/docs/spray-routing_2.11-1.3.3-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-routing_2.11/1.3.3/spray-routing_2.11-1.3.3-javadoc.jar"/>
+					</artifact>
+					<artifact name="spray-routing_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="80455" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-routing_2.11/srcs/spray-routing_2.11-1.3.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-routing_2.11/1.3.3/spray-routing_2.11-1.3.3-sources.jar"/>
+					</artifact>
+					<artifact name="spray-routing_2.11" type="jar" ext="jar" status="no" details="" size="1064515" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-routing_2.11/jars/spray-routing_2.11-1.3.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-routing_2.11/1.3.3/spray-routing_2.11-1.3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.chuusai" name="shapeless_2.11">
+			<revision name="1.2.4" status="release" pubdate="20130619080214" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="12">
+				<license name="Apache License" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="2775" time="0" location="/Users/Scott/.ivy2/cache/com.chuusai/shapeless_2.11/ivy-1.2.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/chuusai/shapeless_2.11/1.2.4/shapeless_2.11-1.2.4.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="shapeless_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="74241" time="0" location="/Users/Scott/.ivy2/cache/com.chuusai/shapeless_2.11/srcs/shapeless_2.11-1.2.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/chuusai/shapeless_2.11/1.2.4/shapeless_2.11-1.2.4-sources.jar"/>
+					</artifact>
+					<artifact name="shapeless_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1593951" time="0" location="/Users/Scott/.ivy2/cache/com.chuusai/shapeless_2.11/docs/shapeless_2.11-1.2.4-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/chuusai/shapeless_2.11/1.2.4/shapeless_2.11-1.2.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="shapeless_2.11" type="jar" ext="jar" status="no" details="" size="1260628" time="0" location="/Users/Scott/.ivy2/cache/com.chuusai/shapeless_2.11/jars/shapeless_2.11-1.2.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/chuusai/shapeless_2.11/1.2.4/shapeless_2.11-1.2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-caching_2.11">
+			<revision name="1.3.3" status="release" pubdate="20150324085200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="15">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3334" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-caching_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-caching_2.11/1.3.3/spray-caching_2.11-1.3.3.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spray-caching_2.11" type="jar" ext="jar" status="no" details="" size="29468" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-caching_2.11/jars/spray-caching_2.11-1.3.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-caching_2.11/1.3.3/spray-caching_2.11-1.3.3.jar"/>
+					</artifact>
+					<artifact name="spray-caching_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4852" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-caching_2.11/srcs/spray-caching_2.11-1.3.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-caching_2.11/1.3.3/spray-caching_2.11-1.3.3-sources.jar"/>
+					</artifact>
+					<artifact name="spray-caching_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="376680" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-caching_2.11/docs/spray-caching_2.11-1.3.3-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-caching_2.11/1.3.3/spray-caching_2.11-1.3.3-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.concurrentlinkedhashmap" name="concurrentlinkedhashmap-lru">
+			<revision name="1.4.2" status="release" pubdate="20150127193000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/concurrentlinkedhashmap" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="16">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5220" time="0" location="/Users/Scott/.ivy2/cache/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/ivy-1.4.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.4.2" rev-constraint-default="1.4.2" rev-constraint-dynamic="1.4.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="concurrentlinkedhashmap-lru" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="57410" time="0" location="/Users/Scott/.ivy2/cache/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/srcs/concurrentlinkedhashmap-lru-1.4.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2-sources.jar"/>
+					</artifact>
+					<artifact name="concurrentlinkedhashmap-lru" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="58654" time="0" location="/Users/Scott/.ivy2/cache/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/docs/concurrentlinkedhashmap-lru-1.4.2-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="concurrentlinkedhashmap-lru" type="jar" ext="jar" status="no" details="" size="116565" time="0" location="/Users/Scott/.ivy2/cache/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/jars/concurrentlinkedhashmap-lru-1.4.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-httpx_2.11">
+			<revision name="1.3.3" status="release" pubdate="20150324085100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4640" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-httpx_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-httpx_2.11/1.3.3/spray-httpx_2.11-1.3.3.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spray-httpx_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="728053" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-httpx_2.11/docs/spray-httpx_2.11-1.3.3-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-httpx_2.11/1.3.3/spray-httpx_2.11-1.3.3-javadoc.jar"/>
+					</artifact>
+					<artifact name="spray-httpx_2.11" type="jar" ext="jar" status="no" details="" size="437070" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-httpx_2.11/jars/spray-httpx_2.11-1.3.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-httpx_2.11/1.3.3/spray-httpx_2.11-1.3.3.jar"/>
+					</artifact>
+					<artifact name="spray-httpx_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="45491" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-httpx_2.11/srcs/spray-httpx_2.11-1.3.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-httpx_2.11/1.3.3/spray-httpx_2.11-1.3.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jvnet.mimepull" name="mimepull">
+			<revision name="1.9.5" status="release" pubdate="20150313061000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://mimepull.java.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<license name="CDDL 1.1" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<license name="GPL2 w/ CPE" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="3953" time="0" location="/Users/Scott/.ivy2/cache/org.jvnet.mimepull/mimepull/ivy-1.9.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/jvnet/mimepull/mimepull/1.9.5/mimepull-1.9.5.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.9.5" rev-constraint-default="1.9.5" rev-constraint-dynamic="1.9.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="mimepull" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="68147" time="0" location="/Users/Scott/.ivy2/cache/org.jvnet.mimepull/mimepull/srcs/mimepull-1.9.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/jvnet/mimepull/mimepull/1.9.5/mimepull-1.9.5-sources.jar"/>
+					</artifact>
+					<artifact name="mimepull" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="54395" time="0" location="/Users/Scott/.ivy2/cache/org.jvnet.mimepull/mimepull/docs/mimepull-1.9.5-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/jvnet/mimepull/mimepull/1.9.5/mimepull-1.9.5-javadoc.jar"/>
+					</artifact>
+					<artifact name="mimepull" type="jar" ext="jar" status="no" details="" size="63621" time="0" location="/Users/Scott/.ivy2/cache/org.jvnet.mimepull/mimepull/jars/mimepull-1.9.5.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/jvnet/mimepull/mimepull/1.9.5/mimepull-1.9.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
+			<revision name="1.0.3" status="release" pubdate="20141204141814" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2987" time="0" location="/Users/Scott/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-xml_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="109174" time="0" location="/Users/Scott/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/srcs/scala-xml_2.11-1.0.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3-sources.jar"/>
+					</artifact>
+					<artifact name="scala-xml_2.11" type="jar" ext="jar" status="no" details="" size="647893" time="0" location="/Users/Scott/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/jars/scala-xml_2.11-1.0.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3.jar"/>
+					</artifact>
+					<artifact name="scala-xml_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1225501" time="0" location="/Users/Scott/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/docs/scala-xml_2.11-1.0.3-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-can_2.11">
+			<revision name="1.3.3" status="release" pubdate="20150324084800" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3554" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-can_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-can_2.11/1.3.3/spray-can_2.11-1.3.3.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spray-can_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="514577" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-can_2.11/docs/spray-can_2.11-1.3.3-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-can_2.11/1.3.3/spray-can_2.11-1.3.3-javadoc.jar"/>
+					</artifact>
+					<artifact name="spray-can_2.11" type="jar" ext="jar" status="no" details="" size="720710" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-can_2.11/jars/spray-can_2.11-1.3.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-can_2.11/1.3.3/spray-can_2.11-1.3.3.jar"/>
+					</artifact>
+					<artifact name="spray-can_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="84515" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-can_2.11/srcs/spray-can_2.11-1.3.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-can_2.11/1.3.3/spray-can_2.11-1.3.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-io_2.11">
+			<revision name="1.3.3" status="release" pubdate="20150324085200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3310" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-io_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-io_2.11/1.3.3/spray-io_2.11-1.3.3.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spray-io_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="491795" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-io_2.11/docs/spray-io_2.11-1.3.3-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-io_2.11/1.3.3/spray-io_2.11-1.3.3-javadoc.jar"/>
+					</artifact>
+					<artifact name="spray-io_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="20764" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-io_2.11/srcs/spray-io_2.11-1.3.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-io_2.11/1.3.3/spray-io_2.11-1.3.3-sources.jar"/>
+					</artifact>
+					<artifact name="spray-io_2.11" type="jar" ext="jar" status="no" details="" size="189178" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-io_2.11/jars/spray-io_2.11-1.3.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-io_2.11/1.3.3/spray-io_2.11-1.3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-http_2.11">
+			<revision name="1.3.3" status="release" pubdate="20150324085100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3296" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-http_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-http_2.11/1.3.3/spray-http_2.11-1.3.3.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spray-http_2.11" type="jar" ext="jar" status="no" details="" size="1502842" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-http_2.11/jars/spray-http_2.11-1.3.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-http_2.11/1.3.3/spray-http_2.11-1.3.3.jar"/>
+					</artifact>
+					<artifact name="spray-http_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="99072" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-http_2.11/srcs/spray-http_2.11-1.3.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-http_2.11/1.3.3/spray-http_2.11-1.3.3-sources.jar"/>
+					</artifact>
+					<artifact name="spray-http_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1676691" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-http_2.11/docs/spray-http_2.11-1.3.3-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-http_2.11/1.3.3/spray-http_2.11-1.3.3-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-scala_2.11">
+			<revision name="1.1.7" status="release" pubdate="20150209101100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3094" time="0" location="/Users/Scott/.ivy2/cache/org.parboiled/parboiled-scala_2.11/ivy-1.1.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.7/parboiled-scala_2.11-1.1.7.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.1.7" rev-constraint-default="1.1.7" rev-constraint-dynamic="1.1.7" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="parboiled-scala_2.11" type="jar" ext="jar" status="no" details="" size="233224" time="0" location="/Users/Scott/.ivy2/cache/org.parboiled/parboiled-scala_2.11/jars/parboiled-scala_2.11-1.1.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.7/parboiled-scala_2.11-1.1.7.jar"/>
+					</artifact>
+					<artifact name="parboiled-scala_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="28671" time="0" location="/Users/Scott/.ivy2/cache/org.parboiled/parboiled-scala_2.11/srcs/parboiled-scala_2.11-1.1.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.7/parboiled-scala_2.11-1.1.7-sources.jar"/>
+					</artifact>
+					<artifact name="parboiled-scala_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="601740" time="0" location="/Users/Scott/.ivy2/cache/org.parboiled/parboiled-scala_2.11/docs/parboiled-scala_2.11-1.1.7-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.7/parboiled-scala_2.11-1.1.7-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-core">
+			<revision name="1.1.7" status="release" pubdate="20150209101200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2789" time="0" location="/Users/Scott/.ivy2/cache/org.parboiled/parboiled-core/ivy-1.1.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.1.7" rev-constraint-default="1.1.7" rev-constraint-dynamic="1.1.7" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="parboiled-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="166639" time="0" location="/Users/Scott/.ivy2/cache/org.parboiled/parboiled-core/srcs/parboiled-core-1.1.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7-sources.jar"/>
+					</artifact>
+					<artifact name="parboiled-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="465512" time="0" location="/Users/Scott/.ivy2/cache/org.parboiled/parboiled-core/docs/parboiled-core-1.1.7-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7-javadoc.jar"/>
+					</artifact>
+					<artifact name="parboiled-core" type="jar" ext="jar" status="no" details="" size="186607" time="0" location="/Users/Scott/.ivy2/cache/org.parboiled/parboiled-core/jars/parboiled-core-1.1.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-util_2.11">
+			<revision name="1.3.3" status="release" pubdate="20150324084800" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3283" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-util_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-util_2.11/1.3.3/spray-util_2.11-1.3.3.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spray-util_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="483628" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-util_2.11/docs/spray-util_2.11-1.3.3-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-util_2.11/1.3.3/spray-util_2.11-1.3.3-javadoc.jar"/>
+					</artifact>
+					<artifact name="spray-util_2.11" type="jar" ext="jar" status="no" details="" size="128702" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-util_2.11/jars/spray-util_2.11-1.3.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-util_2.11/1.3.3/spray-util_2.11-1.3.3.jar"/>
+					</artifact>
+					<artifact name="spray-util_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="29891" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-util_2.11/srcs/spray-util_2.11-1.3.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-util_2.11/1.3.3/spray-util_2.11-1.3.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaj" name="scalaj-http_2.11">
+			<revision name="2.2.1" status="release" pubdate="20160106025933" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/scalaj/scalaj-http" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3158" time="0" location="/Users/Scott/.ivy2/cache/org.scalaj/scalaj-http_2.11/ivy-2.2.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalaj/scalaj-http_2.11/2.2.1/scalaj-http_2.11-2.2.1.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalaj-http_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12831" time="0" location="/Users/Scott/.ivy2/cache/org.scalaj/scalaj-http_2.11/srcs/scalaj-http_2.11-2.2.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalaj/scalaj-http_2.11/2.2.1/scalaj-http_2.11-2.2.1-sources.jar"/>
+					</artifact>
+					<artifact name="scalaj-http_2.11" type="jar" ext="jar" status="no" details="" size="120413" time="0" location="/Users/Scott/.ivy2/cache/org.scalaj/scalaj-http_2.11/jars/scalaj-http_2.11-2.2.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalaj/scalaj-http_2.11/2.2.1/scalaj-http_2.11-2.2.1.jar"/>
+					</artifact>
+					<artifact name="scalaj-http_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="401317" time="0" location="/Users/Scott/.ivy2/cache/org.scalaj/scalaj-http_2.11/docs/scalaj-http_2.11-2.2.1-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalaj/scalaj-http_2.11/2.2.1/scalaj-http_2.11-2.2.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.7" status="release" pubdate="20150803110311" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/Scott/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom"/>
+				<caller organisation="org.qq" name="shuoshuo_crawler$sources_javadoc_2.11" conf="compile" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5745606" time="0" location="/Users/Scott/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="908307" time="0" location="/Users/Scott/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="22812957" time="0" location="/Users/Scott/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.11.7-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
