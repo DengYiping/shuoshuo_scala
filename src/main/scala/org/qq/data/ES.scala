@@ -3,6 +3,7 @@ package org.qq.data
 import org.elasticsearch.common.settings.Settings
 import org.qq.login.QQ
 import org.qq.requests.QQrequest
+import org.qq.parser.shuoshuoParser
 /**
   * Created by Scott on 1/13/16.
   */
@@ -20,7 +21,7 @@ import scala.collection.JavaConversions._
 object ES{
   def getLocalclient: Client = {
     val settings = Settings.settingsBuilder()
-      .put("cluster.name", "elasticsearch_Scott")
+      .put("cluster.name", "elasticsearch")
       .put("client.transport.sniff", true)
       .build()
 
@@ -28,19 +29,22 @@ object ES{
     TransportClient.builder().settings(settings).build()
       .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName("127.0.0.1"),9300))
   }
+  def apply():ES = new ES(this.getLocalclient)
   def cleanIndex(client:Client):Unit = {
     val response = client.admin.cluster.prepareState.execute.actionGet()
     val indices = response.getState.getMetaData.getConcreteAllIndices.toList
     indices.foreach( indice => client.admin().indices.prepareDelete(indice).execute().actionGet() )
   }
   def main(Args:Array[String]): Unit = {
-    val qq = QQ(649899819L, "@8xf4JFEpc")
-    val client = this.getLocalclient
-    val json = "{qq:649899819, ide:1}"
-    val response = client.prepareIndex("testindex","test").setId("1").setSource(json).execute().actionGet()
+    val qq = QQ(649899819L, "@SrtunOYpS")
+    val es = ES()
+    val target_qq = "649899819"
+    val qq_json = QQrequest.getUserShuoshuo(qq,target_qq)
+    val parsed_shuoshuo = shuoshuoParser(qq_json)
+    val response = es.index("qq","shuoshuo",parsed_shuoshuo,target_qq)
     println("Response:" + response.getVersion.toString)
-    this.cleanIndex(client)
-    client.close()
+    //es.cleanAll()
+    es.close()
   }
 }
 
@@ -59,5 +63,6 @@ class ES(private val client:Client){
     .actionGet
   def delele(indice:String, typo:String, id:String) = client.prepareDelete(indice,typo,id).execute().actionGet
   def get(indice:String, typo:String, id:String) = client.prepareGet(indice, typo,id).execute().actionGet
+  def cleanAll():Unit = ES.cleanIndex(client)
   def getClient = client
 }

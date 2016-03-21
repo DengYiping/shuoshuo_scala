@@ -36,7 +36,7 @@ object HTTP {
   }
 
   def main(args:Array[String]): Unit ={
-    println(get("https://www.google.com",None))
+    println(get("http://www.baidu.com",None))
   }
 
 }

@@ -8,7 +8,8 @@ import DefaultJsonProtocol._
 import org.qq.login.QQ
 object QQrequest {
   private val baseShuoShuoURL1 = "http://taotao.qq.com/cgi-bin/emotion_cgi_msglist_v6?uin="
-  private val baseShuoShuoURL2 = "&num=20&replynum=100&g_tk="
+  private val baseShuoShuoURL2 = "&num=5&replynum=5&g_tk="
+  //crawl 5 shuoshuos per user, 5 comment per shuoshuo
   private val baseShuoShuoURL3 = "&format=jsonp"
   val jsonExtractor = """_Callback\((.*)\);""".r
 
