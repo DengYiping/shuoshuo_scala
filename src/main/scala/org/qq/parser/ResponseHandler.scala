@@ -1,4 +1,6 @@
 package org.qq.parser
+
+import akka.actor.SupervisorStrategy.Restart
 import akka.actor._
 import scala.concurrent.ExecutionContext
 import scala.concurrent.duration._
@@ -14,16 +16,16 @@ class ResponseHandler(qq:QQ) extends Actor with ActorLogging {
   val es = context.actorOf(Props(new ESactor(ES.apply())),"Elasticsearch")
   val req = context.actorOf(Props[RequestRouter],"Requester")
   val parser = context.actorOf(Props[Parser],"Parser")
-  val fetcher = context.actorOf(Props[QQFetcher],"Fetcher")
+  override val supervisorStrategy= OneForOneStrategy() {
+    case _:Throwable => Restart
+  }
   def receive = {
     case w:SsResponse => parser ! w
     case ParsedResponse(qq_num,parsed) =>{
-      fetcher ! parsed
       es ! Shuoshuo_data(qq_num,parsed)
     }
     case Target(qq_target) =>{
       req ! QQrequester(qq,qq_target)
-      log.info("New task:" + qq_target)
     }
   }
 }

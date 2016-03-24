@@ -36,14 +36,9 @@ object ES{
     indices.foreach( indice => client.admin().indices.prepareDelete(indice).execute().actionGet() )
   }
   def main(Args:Array[String]): Unit = {
-    val qq = QQ(649899819L, "@SrtunOYpS")
+    val qq = QQ(649899819L, "@11Yw7xPx3")
     val es = ES()
-    val target_qq = "649899819"
-    val qq_json = QQrequest.getUserShuoshuo(qq,target_qq)
-    val parsed_shuoshuo = shuoshuoParser(qq_json)
-    val response = es.index("qq","shuoshuo",parsed_shuoshuo,target_qq)
-    println("Response:" + response.getVersion.toString)
-    //es.cleanAll()
+    es.cleanAll()
     es.close()
   }
 }

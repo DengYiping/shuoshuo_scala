@@ -16,14 +16,13 @@ import akka.routing.{ ActorRefRoutee, SmallestMailboxRoutingLogic, Router }
 import org.qq.common._
 
 class RequestHandler extends Actor with ActorLogging{
+  case object Fuck
   def receive = {
     case QQrequester(logined_qq,target) =>{
-      try{
-        val rep = SsResponse(target,QQrequest.getUserShuoshuo(logined_qq,target))
-        sender() ! rep
-      }
-      catch{
-        case _:Throwable =>
+      val rep = try{SsResponse(target,QQrequest.getUserShuoshuo(logined_qq,target))}catch { case _:Throwable => Fuck}
+      rep match {
+        case x:SsResponse => sender() ! x
+        case Fuck =>
       }
     }
   }
@@ -31,10 +30,10 @@ class RequestHandler extends Actor with ActorLogging{
 
 class RequestRouter extends Actor{
   override val supervisorStrategy= OneForOneStrategy() {
-    case HTTPexception(e) => Restart
+    case _:Throwable => Restart
   }
   var router = {
-    val routees = Vector.fill(7) {
+    val routees = Vector.fill(10) {
       val r = context.actorOf(Props[RequestHandler])
       context watch r
       ActorRefRoutee(r)

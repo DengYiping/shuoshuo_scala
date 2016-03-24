@@ -1,5 +1,4 @@
 package org.qq.parser
-import org.qq.parser.Bloomfilter
 /**
   * Created by Scott on 3/21/16.
   */
@@ -8,13 +7,18 @@ object shuoshuoParser {
   def apply(ss:JsObject):String = {
     val statusCode = ss.getFields("subcode").head.toString.toInt
     if(statusCode >= 0){
-      val msgs = ss.getFields("msglist").head.compactPrint
-      val info = ss.getFields("usrinfo").head.compactPrint
-      "{" + "\"info\":"+ info + ",\"msgs\":" + msgs + "}"
+      ss.getFields("msglist").head.asInstanceOf[JsArray].elements.head.compactPrint
     }
     else{
-      val info = ss.getFields("usrinfo").head.compactPrint
-      "{" + "\"info\":"+ info + "}"
+      throw new Throwable
     }
+  }
+  def main(Args:Array[String]): Unit ={
+    val test = "{\"hello\":\"world\"}"
+    val msgs = "[\n{ \"firstName\":\"Bill\" , \"lastName\":\"Gates\" },\n{ \"firstName\":\"George\" , \"lastName\":\"Bush\" },\n{ \"firstName\":\"Thomas\" , \"lastName\": \"Carter\" }\n]"
+    val test2 = test.substring(0,test.length-1) + ",\"msglist\":" + msgs + "}"
+    println(test2)
+    val test3 = test2.parseJson.asJsObject.getFields("msglist").head.asInstanceOf[JsArray].elements.head
+    println(test3)
   }
 }
