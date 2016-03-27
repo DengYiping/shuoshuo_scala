@@ -6,8 +6,16 @@ import spray.json.JsObject
 /**
   * Created by Scott on 3/21/16.
   */
-case class Shuoshuo_data(qq:String,json:String)
-case class SsResponse(qq:String, js:JsObject)
+abstract class ES_Storable{
+  def id:String
+  def data:AnyRef
+}
+
+case class Shuoshuo_doc(id:String, data:String) extends ES_Storable
+case class Json_doc(id:String, data:String) extends ES_Storable
+case class Map_doc(id:String, data:Map[String,String]) extends ES_Storable
+case class Raw_doc(indice:String,typo:String,id:String,data:String) extends ES_Storable
+
+case class ShuoShuoJsResponse(qq:String, js:JsObject)
 case class Target(qq:String)
-case class QQrequester(logined_qq:QQ,target:String)
-case class ParsedResponse(qq:String, js:String)
+case class QQrequest(logined_qq:QQ, target:String)

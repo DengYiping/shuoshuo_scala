@@ -2,7 +2,7 @@ package org.qq.data
 
 import org.elasticsearch.common.settings.Settings
 import org.qq.login.QQ
-import org.qq.requests.QQrequest
+import org.qq.requests.QQrequester
 import org.qq.parser.shuoshuoParser
 /**
   * Created by Scott on 1/13/16.

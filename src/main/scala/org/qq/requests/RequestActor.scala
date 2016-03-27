@@ -13,15 +13,17 @@ import akka.event.LoggingReceive
 import org.qq.login.QQ
 import org.qq.data.ESactor
 import akka.routing.{ ActorRefRoutee, SmallestMailboxRoutingLogic, Router }
-import org.qq.common._
+import org.qq.common.{ShuoShuoJsResponse, QQrequest}
 
 class RequestHandler extends Actor with ActorLogging{
   case object Fuck
   def receive = {
-    case QQrequester(logined_qq,target) =>{
-      val rep = try{SsResponse(target,QQrequest.getUserShuoshuo(logined_qq,target))}catch { case _:Throwable => Fuck}
+    case QQrequest(logined_qq,target) =>{
+      val rep = try{
+        ShuoShuoJsResponse(target,QQrequester.getUserShuoshuo(logined_qq,target))
+      }catch { case _:Throwable => Fuck}
       rep match {
-        case x:SsResponse => sender() ! x
+        case x:ShuoShuoJsResponse => sender() ! x
         case Fuck =>
       }
     }
@@ -41,7 +43,7 @@ class RequestRouter extends Actor{
     Router(SmallestMailboxRoutingLogic(), routees)
   }
   def receive = {
-    case w: QQrequester =>
+    case w: QQrequest =>
       router.route(w, sender())
     case Terminated(a) =>
       router = router.removeRoutee(a)

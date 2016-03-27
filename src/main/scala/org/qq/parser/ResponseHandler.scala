@@ -20,12 +20,11 @@ class ResponseHandler(qq:QQ) extends Actor with ActorLogging {
     case _:Throwable => Restart
   }
   def receive = {
-    case w:SsResponse => parser ! w
-    case ParsedResponse(qq_num,parsed) =>{
-      es ! Shuoshuo_data(qq_num,parsed)
-    }
+    case w:ShuoShuoJsResponse => parser ! w
+
     case Target(qq_target) =>{
-      req ! QQrequester(qq,qq_target)
+      req ! QQrequest(qq,qq_target)
     }
+    case x:ES_Storable => es ! x
   }
 }

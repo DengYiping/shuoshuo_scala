@@ -6,7 +6,7 @@ package org.qq.requests
 import spray.json._
 import DefaultJsonProtocol._
 import org.qq.login.QQ
-object QQrequest {
+object QQrequester {
   private val baseShuoShuoURL1 = "http://taotao.qq.com/cgi-bin/emotion_cgi_msglist_v6?uin="
   private val baseShuoShuoURL2 = "&num=5&replynum=5&g_tk="
   //crawl 5 shuoshuos per user, 5 comment per shuoshuo
