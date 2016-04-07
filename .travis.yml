@@ -1,0 +1,16 @@
+language: scala
+scala:
+   - 2.11.7
+branches:
+  only:
+    - master
+services:
+  - elasticsearch
+jdk:
+  - oraclejdk7
+  - oraclejdk8
+before_script:
+  - sleep 10
+script:
+  - sbt compile
+  - sbt test
