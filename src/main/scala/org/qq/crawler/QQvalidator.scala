@@ -1,26 +1,45 @@
 package org.qq.crawler
 
-import akka.actor.{ActorRef, Actor}
+import akka.actor.{ActorLogging, ActorRef, Actor}
 import org.qq.login.{roundrobinQQs, QQ}
 import spray.json._
+import scala.concurrent.duration._
+import org.qq.common.ShuoshuoConfig
 /**
   * Created by Scott on 3/29/16.
   */
-case object CheckQQState
 case object SelfChecking
-class QQvalidator(original_qq:QQ,requestRouter:ActorRef) extends Actor with Validate{
+class QQvalidator(original_qq:QQ,requestRouter:ActorRef) extends Actor with Validate with ActorLogging{
   var valid_qqs = new roundrobinQQs(Array(original_qq))
+  implicit val disp = context.system.dispatcher
+  val cancellable =
+    context.system.scheduler.schedule(30 seconds,
+      ShuoshuoConfig.qq_check_freq minutes,
+      self,
+      SelfChecking)
+  def update():Unit ={
+    if(valid_qqs.QQs.length > 0){
+      requestRouter ! ChangeValidQQs(valid_qqs)
+      log.info("qq list updated")
+    }
+    else {
+      context.parent ! "Stop"
+    }
+  }
   def receive ={
     case AddQQRequest(qq) =>{
       if(validate_twice(qq)){
-        val new_validated = new roundrobinQQs(valid_qqs.QQs.+:(qq))
-        requestRouter ! ChangeValidQQs(new_validated)
-        valid_qqs = new_validated
+        valid_qqs = new roundrobinQQs(valid_qqs.QQs.+:(qq))
+        update()
       }
     }
     case SelfChecking =>{
-      val new_validate = new roundrobinQQs(valid_qqs.QQs.filter(validate_twice(_)))
+      valid_qqs = new roundrobinQQs(valid_qqs.QQs.filter(validate_twice(_)))
+      update()
     }
+  }
+  override def postStop(): Unit = {
+    cancellable.cancel()
   }
 }
 trait Validate extends ShuoshuoRequester{

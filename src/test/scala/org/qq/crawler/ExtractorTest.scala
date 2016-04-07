@@ -1,5 +1,5 @@
 package org.qq.crawler
-
+import org.qq.ConfigObj
 /**
   * Created by Scott on 3/30/16.
   */

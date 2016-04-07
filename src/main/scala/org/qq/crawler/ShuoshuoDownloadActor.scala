@@ -10,6 +10,7 @@ import spray.json._
 import scalaj.http._
 import scala.util.matching.Regex
 import org.qq.common._
+import org.qq.common.ShuoshuoConfig
 
 /**
   * Created by Scott on 3/29/16.
@@ -18,7 +19,7 @@ case class AddQQRequest(new_qq:QQ)
 case class ChangeValidQQs(new_qqs:roundrobinQQs)
 
 class RequestRouter(parser:ActorRef,original_qq:QQ) extends Actor{
-  val worker_num = 15 //modify this number if you have a better server
+  val worker_num = ShuoshuoConfig.worker_num //modify this number if you have a better server
   val qq_extractor = context.actorOf(Props(new QQextractorActor(self)))//extract qqs
   override val supervisorStrategy= OneForOneStrategy() {
     case _:Throwable => Restart

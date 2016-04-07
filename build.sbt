@@ -26,5 +26,4 @@ libraryDependencies ++= {
   )
 }
 libraryDependencies += "org.elasticsearch" % "elasticsearch" % "2.1.1"
-libraryDependencies += "org.seleniumhq.selenium" % "selenium-java" % "2.49.0"
 libraryDependencies += "com.typesafe" % "config" % "1.3.0"

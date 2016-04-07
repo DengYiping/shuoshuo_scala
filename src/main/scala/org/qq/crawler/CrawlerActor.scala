@@ -48,5 +48,19 @@ class CrawlerActor(es_actor:ActorRef) extends Actor with ActorLogging{
     case "Check" =>{
       sender() ! StateResponse(is_started,context.system.uptime)
     }
+    case "Stop" =>{
+      if (is_started && requester != null && validator != null){
+        context unwatch requester
+        context unwatch validator
+        context.stop(requester)
+        context.stop(validator)
+        is_started = false
+        requester = null
+        validator = null
+        log.info("Crawler shutdown")
+      }else{
+        log.info("Cannot stop")
+      }
+    }
   }
 }
