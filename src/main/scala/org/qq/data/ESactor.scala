@@ -26,6 +26,7 @@ class ESactor(val es:ES) extends Actor with ActorLogging{
           count = count + 1L
           if(count % log_freq == 0){
             log.info("Elasticsearch total count:" + count.toString)
+            context.parent ! ESCount(count)
           }
         }
         case Json_doc(id,json) =>{
@@ -33,6 +34,7 @@ class ESactor(val es:ES) extends Actor with ActorLogging{
           count = count + 1L
           if(count % log_freq == 0){
             log.info("Elasticsearch total count:" + count.toString)
+            context.parent ! ESCount(count)
           }
         }
         case Map_doc(id,m) =>{
@@ -41,6 +43,7 @@ class ESactor(val es:ES) extends Actor with ActorLogging{
           count = count + 1L
           if(count % log_freq == 0){
             log.info("Elasticsearch total count:" + count.toString)
+            context.parent ! ESCount(count)
           }
         }
         case Raw_doc(indice,typo,id,data) =>{
@@ -48,12 +51,13 @@ class ESactor(val es:ES) extends Actor with ActorLogging{
           count = count + 1L
           if(count % log_freq == 0){
             log.info("Elasticsearch total Count:" + count.toString)
+            context.parent ! ESCount(count)
           }
         }
       }
     }
     case ESclean => es.cleanAll()
-    case data_read:Read_ES =>{
+    /*case data_read:Read_ES =>{
       data_read match{
         case ESSearchRequest(indice, typo, field, term) =>{
           val result = es.getClient.prepareSearch(indice)
@@ -69,10 +73,6 @@ class ESactor(val es:ES) extends Actor with ActorLogging{
           sender() ! SearchResult(result mkString ",\n")
         }
       }
-    }
-    case "Count" =>{
-      sender() ! count
-    }
+    } */
   }
 }
-

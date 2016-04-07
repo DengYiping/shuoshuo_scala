@@ -18,3 +18,4 @@ case object Failed extends Result{
   val msg = "Failed"
 }
 case class StateResponse(isStarted:Boolean, uptime:Long)
+case class ESCount(count:Long)

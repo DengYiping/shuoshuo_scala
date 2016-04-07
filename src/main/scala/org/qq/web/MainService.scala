@@ -1,6 +1,7 @@
 package org.qq.web
 
 import akka.util.Timeout
+import org.elasticsearch.index.query.QueryBuilders
 import org.qq.crawler.AddQQRequest
 import org.qq.login.QQ
 import org.qq.main.toporder.CrawlerStart
@@ -16,6 +17,7 @@ import org.qq.common.ES._
 import akka.pattern.ask
 import org.qq.common._
 import scala.concurrent.Future
+import org.qq.data.ES
 /**
   * Created by Scott on 3/30/16.
   */
@@ -28,6 +30,7 @@ trait MainService extends HttpService with Actor{
   val es_actor:ActorRef
   val crawler:ActorRef
   val superviser:ActorRef
+  val es:ES
   val route = {
     val dir = "html/"
     path("search" / Rest){  path =>
@@ -35,11 +38,22 @@ trait MainService extends HttpService with Actor{
         detach(){
           jsonpWithParameter("jsonp"){
             complete{
-              val future = es_actor ? ESSearchRequest("qq","shuoshuo",field,q)
-              val result = try{Await.result(future, timeout.duration).asInstanceOf[SearchResult]} catch {
-                case _:Throwable =>SearchResult("")
+              val result = try{
+                val result = es.getClient.prepareSearch("qq")
+                .setTypes("shuoshuo")
+                .setQuery(field match {
+                  case Some(name:String) => QueryBuilders.termQuery(name,q)
+                  case None => QueryBuilders.queryStringQuery(q)
+                })
+                .setFrom(0)
+                .setSize(60)
+                .execute()
+                .get().getHits.hits().map(_.getSourceAsString)
+                result mkString ",\n"
+              }catch {
+                case _:Throwable =>""
               }
-              ("[" + result.json + "]").parseJson.asInstanceOf[JsArray]
+              ("[" + result + "]").parseJson.asInstanceOf[JsArray]
             }
           }
         }
@@ -64,14 +78,13 @@ trait MainService extends HttpService with Actor{
     }~
     path("admin" / "check" / Rest){
       path => jsonpWithParameter("jsonp"){
-        val check_future = (crawler ? "Check").asInstanceOf[Future[StateResponse]]
         detach(){
           val check_future = (crawler ? "Check").asInstanceOf[Future[StateResponse]]
           import MasterJson._
           val result1:StateResponse = try{Await.result(check_future, timeout.duration)} catch {
             case _:Throwable => StateResponse(false,0L)
           }
-          val result2 = try{Await.result((es_actor ? "Count"), timeout.duration).asInstanceOf[Long]} catch {
+          val result2 = try{Await.result((superviser ? "Count"), timeout.duration).asInstanceOf[Long]} catch {
             case _:Throwable =>0L
           }
           val result = if(result1.uptime <= 0 || result1.isStarted == false) StateReport(false,0,0,0)

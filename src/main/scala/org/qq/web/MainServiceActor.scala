@@ -10,11 +10,12 @@ import spray.json._
 import spray.httpx.SprayJsonSupport._
 import scala.concurrent.duration._
 import akka.pattern.ask
+import org.qq.data.ES
 
 /**
   * Created by Scott on 3/30/16.
   */
-class MainServiceActor(val crawler:ActorRef, val es_actor:ActorRef) extends MainService{
+class MainServiceActor(val crawler:ActorRef, val es_actor:ActorRef, val es:ES) extends MainService{
   val superviser = context.parent
   def actorRefFactory = context
   def receive = runRoute(route)
