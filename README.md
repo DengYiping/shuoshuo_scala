@@ -1,4 +1,6 @@
 # shuoshuo_scala
+[![Build Status](https://travis-ci.org/DengYiping/shuoshuo_scala.svg?branch=master)](https://travis-ci.org/DengYiping/shuoshuo_scala)
+
 
 Shuoshuo_scala is a social network crawler for Tencent's Qzone(or Shuoshuo 说说). It is fully restful and asynchronized.
 
