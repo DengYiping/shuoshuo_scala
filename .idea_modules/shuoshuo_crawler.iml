@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
+  <component name="FacetManager" />
   <component name="NewModuleRootManager" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/../target/scala-2.11/classes" />
     <output-test url="file://$MODULE_DIR$/../target/scala-2.11/test-classes" />
@@ -110,6 +111,8 @@
     <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang:scala-reflect:2.11.2:test" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: io.spray:spray-testkit_2.11:1.3.3:test" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: com.typesafe.akka:akka-testkit_2.11:2.4.1:test" level="project" />
+    <orderEntry type="library" name="scala-sdk-2.11.7" level="application" />
     <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.7" level="project" />
   </component>
 </module>
+

@@ -21,7 +21,6 @@ class QQ(val qq:Long, private val skey:String, val gtk:String)
     "uin" -> uin,
     "skey" -> skey
   )
-
 }
 object QQ{
   /**
@@ -51,8 +50,8 @@ object QQ{
       hash = hash & 0x7fffffff;
       hash.toString
     }
-
     QQ(qq,skey,getGT_K(skey))
   }
+  def apply(qq:String,skey:String):QQ = apply(qq.toLong,skey)
 }
 

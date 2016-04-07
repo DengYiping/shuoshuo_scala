@@ -2,8 +2,6 @@ package org.qq.data
 
 import org.elasticsearch.common.settings.Settings
 import org.qq.login.QQ
-import org.qq.requests.QQrequester
-import org.qq.parser.shuoshuoParser
 /**
   * Created by Scott on 1/13/16.
   */
@@ -35,12 +33,6 @@ object ES{
     val indices = response.getState.getMetaData.getConcreteAllIndices.toList
     indices.foreach( indice => client.admin().indices.prepareDelete(indice).execute().actionGet() )
   }
-  def main(Args:Array[String]): Unit = {
-    val qq = QQ(649899819L, "@11Yw7xPx3")
-    val es = ES()
-    es.cleanAll()
-    es.close()
-  }
 }
 
 class ES(private val client:Client){
@@ -49,15 +41,13 @@ class ES(private val client:Client){
     .prepareIndex(indice,typo)
     .setSource(json)
     .execute
-    .actionGet
   def index(indice:String,typo:String, json:String, id:String) = client
     .prepareIndex(indice,typo)
     .setId(id)
     .setSource(json)
     .execute()
-    .actionGet
-  def delele(indice:String, typo:String, id:String) = client.prepareDelete(indice,typo,id).execute().actionGet
-  def get(indice:String, typo:String, id:String) = client.prepareGet(indice, typo,id).execute().actionGet
+  def delele(indice:String, typo:String, id:String) = client.prepareDelete(indice,typo,id).execute()
+  def get(indice:String, typo:String, id:String) = client.prepareGet(indice, typo,id).execute()
   def cleanAll():Unit = ES.cleanIndex(client)
   def getClient = client
 }
