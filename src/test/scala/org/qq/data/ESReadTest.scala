@@ -8,6 +8,7 @@ import org.qq.ConfigObj
 /**
   * Created by Scott on 4/1/16.
   */
+/*
 class ESTest extends FlatSpec with ShouldMatchers{
   val es = ES()
   val indice = "qq"
@@ -23,3 +24,4 @@ class ESTest extends FlatSpec with ShouldMatchers{
     es.delele(indice,typo,"1").actionGet()
   }
 }
+*/
