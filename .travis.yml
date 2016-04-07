@@ -7,7 +7,6 @@ branches:
 services:
   - elasticsearch
 jdk:
-  - oraclejdk7
   - oraclejdk8
 before_script:
   - sleep 10
