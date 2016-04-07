@@ -63,10 +63,4 @@ object Bloomfilter{
     val (filter_size, hash_num) = calculate_size_k_optimal(element_num,false_positive)
     apply[T](filter_size,hash_num)
   }
-
-  def main(args: Array[String]): Unit ={
-    val filter = optimal_filter[String](2000, 0.001)
-    filter contains "hello234"
-    println(filter("hello234"))
-  }
 }
