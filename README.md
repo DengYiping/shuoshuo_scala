@@ -115,6 +115,8 @@ Most of the RESTful service has `jsonp` support, you just have to add `jsonp=YOU
   ```
   GET /util/getg_tk/?qq=QQ_NUM&skey=QQ_SKEY
   ```
+  
+  
 ### Start the Server:
 - make sure Elastic Search is running on `localhost`, and install ```oraclejdk8```
 - ```sbt run```
