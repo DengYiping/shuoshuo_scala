@@ -30,7 +30,7 @@ class SuperviserActor extends Actor with ActorLogging{
   var es_count = 0L;
   implicit val timeout=Timeout(5.seconds)
   implicit val system = context.system
-  IO(Http) ? Http.Bind(service,interface="localhost",port=8080)
+  IO(Http) ? Http.Bind(service,interface="0.0.0.0",port=8080)
   log.info("Config:" + ShuoshuoConfig.toString)
   def receive = {
     case x:CrawlerStart => crawler ! x
