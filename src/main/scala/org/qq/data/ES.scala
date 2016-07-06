@@ -1,6 +1,7 @@
 package org.qq.data
 
 import org.elasticsearch.common.settings.Settings
+import org.qq.common.ShuoshuoConfig
 import org.qq.login.QQ
 /**
   * Created by Scott on 1/13/16.
@@ -19,13 +20,12 @@ import scala.collection.JavaConversions._
 object ES{
   def getLocalclient: Client = {
     val settings = Settings.settingsBuilder()
-      .put("cluster.name", "elasticsearch")
+      .put("cluster.name", ShuoshuoConfig.cluster_name)
       .put("client.transport.sniff", true)
       .build()
-
     //return
     TransportClient.builder().settings(settings).build()
-      .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName("127.0.0.1"),9300))
+      .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName(ShuoshuoConfig.es_ip),9300))
   }
   def apply():ES = new ES(this.getLocalclient)
   def cleanIndex(client:Client):Unit = {
