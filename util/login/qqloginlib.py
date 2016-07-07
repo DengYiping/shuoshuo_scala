@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- 
 import requests, re, os, tempfile
 import base64, hashlib, rsa, binascii
 import tea

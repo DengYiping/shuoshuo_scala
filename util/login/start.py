@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- 
 from qqloginlib import QQ
 import requests
 def addqq(baseURL, qq, pwd):
@@ -8,6 +10,6 @@ def addqq(baseURL, qq, pwd):
     return r
 qq_num = input("QQ number:")
 qq_pwd = input("Password:")
-base1 = "http://localhost:8080/admin/addworker/"
-base2 = "http://localhost:8080/admin/start/"
+base1 = "http://shuoshuo.geekinguniverse.com/admin/addworker/"
+base2 = "http://shuoshuo.geekinguniverse.com/admin/start/"
 addqq(base2, qq_num, qq_pwd)
