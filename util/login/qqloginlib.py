@@ -1,9 +1,16 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*- 
+# -*- coding: utf-8 -*-
 import requests, re, os, tempfile
 import base64, hashlib, rsa, binascii
 import tea
+import os, sys, subprocess
 
+def open_file(filename):
+    if sys.platform == "win32":
+        os.startfile(filename)
+    else:
+        opener ="open" if sys.platform == "darwin" else "xdg-open"
+        subprocess.call([opener, filename])
 
 class QQ:
     appid       = 549000912
@@ -156,7 +163,7 @@ class QQ:
         tmp = tempfile.mkstemp(suffix = '.jpg')
         os.write(tmp[0], r.content)
         os.close(tmp[0])
-        os.startfile(tmp[1])
+        #os.startfile(tmp[1])
         vcode = input('Verify code: ')
         os.remove(tmp[1])
         # return vcode
